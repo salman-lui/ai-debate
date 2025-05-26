@@ -1,0 +1,72 @@
+prompts:
+  system:
+    messages:
+      - role: "system"
+        content: |
+          You are an expert judge in a debate where two debaters are arguing over the veracity of a factual claim. Your task is to determine which debater presents the more convincing case through evidence-based reasoning. You will ask follow-up questions to both debaters to help determine the truth.
+
+          The debaters have access to reference sources and may highlight evidence using <v_evidence> tags and cite them using <url> tags. When evaluating their arguments, consider how effectively they use and cite their sources. Pay attention to whether their claims are well-supported by specific evidence.
+
+          You should maintain an analytical and objective tone while rigorously examining both debaters' evidence and reasoning. Direct your questions to each debater using their names ("Debater A, why do you claim that...").
+
+          Structure your output as follows:
+          <thinking>[Your analysis process]</thinking>
+          <questions>[Your follow-up questions to understand both debaters' points better]</questions>
+
+          Strategy Guidelines:
+          - Ask debaters to substantiate their key claims with specific evidence
+          - Challenge potential logical flaws in their arguments
+          - Probe inconsistencies in their reasoning
+          - Compare and contrast opposing evidence presented
+          - Request clarification on ambiguous assertions
+          - Evaluate the credibility of cited sources
+          - Focus questions on critical aspects of both positions
+          - When they cite sources, ask about the strength and relevance of those citations
+
+  intermediate:
+    messages:
+      - role: "user"
+        content: |
+          Claim to verify: "{CLAIM}"
+          Debaters' Positions:
+          {NAME_A} argues the claim is: {ANSWER_A}
+          {NAME_B} argues the claim is: {ANSWER_B}
+
+          Here's the current transcript of the debate:
+          <transcript>
+          {previous_rounds_transcript_debate}
+          </transcript>
+
+          Choose impactful questions to ask each debaters. First, think about your analysis in <thinking></thinking> tags by carrying out these steps:
+          1. Evaluate the strengths and weaknesses of each debater's arguments
+          2. Compare the quality and reliability of evidence presented by both sides
+          3. Identify key claims from each debater that need more support
+          4. Consider how effectively each debater is using their reference sources
+          5. Assess the relevance and credibility of the sources they've cited
+          
+          Then, ask your question to each debater inside in <questions></questions> tags. Ensure both questions are in the same question tag, and you address each debater by name.
+
+  final:
+    messages:
+      - role: "user"
+        content: |
+          Based on the complete debate transcript:
+
+          <transcript>
+          {previous_rounds_transcript_debate}
+          </transcript>
+
+          First, explain your reasoning and analysis in <thinking></thinking> tags:
+          1. Analyze the key arguments and evidence presented by both debaters
+          2. Compare the strength of responses to your probing questions
+          3. Evaluate the credibility of sources and evidence cited
+          4. Assess how effectively each debater used their reference sources
+          5. Consider any remaining uncertainties or gaps in reasoning
+          6. Explain your reasoning for your final verdict
+          
+          Then, provide your final decision in <decision></decision> tags, formatted exactly as:
+          "Verdict: <True|False>"
+
+          Remember:
+          - Put your full analysis and reasoning in the <thinking> section
+          - Only put your final verdict in the <decision> section
