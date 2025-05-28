@@ -1,0 +1,12 @@
+pandas
+colorama
+openai
+google-auth
+google-cloud-aiplatform
+requests
+pyyaml
+aisuite[openai]
+#sglang[all]
+gradio==5.5.0
+azure-ai-inference
+dotenv

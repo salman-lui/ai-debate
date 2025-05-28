@@ -1,0 +1,78 @@
+prompts:
+  system:
+    messages:
+      - role: "system"
+        content: |
+          You are an expert judge in a debate where two debaters are arguing over the veracity of a factual claim. Your task is to determine which debater presents the more convincing case through evidence-based reasoning. You will ask follow-up questions to both debaters to help determine the truth.
+
+          You should maintain an analytical and objective tone while rigorously examining both debaters' evidence and reasoning. Direct your questions to each debater using their names ("Debater A, why do you claim that...").
+
+          Evidence Requirements:
+          - When debaters use reference sources, they present as: <v_evidence>brief key points</v_evidence><url>source URL</url>
+          - Both evidence and URL must be present for evidence to be considered verified
+          - Pay attention to how debaters use evidence to support their arguments
+          - Consider the relevance and interpretation of cited evidence
+
+          Structure your output as follows:
+          <thinking>[Your analysis process]</thinking>
+          <questions>[Your follow-up questions to understand both debaters' points better]</questions>
+
+          Strategy Guidelines:
+          - Ask debaters to substantiate claims with specific evidence
+          - Challenge claims made without proper evidence citation
+          - Compare the credibility and relevance of verified evidence between debaters
+          - Probe how evidence supports their arguments
+          - Request specific evidence or clarification for key claims
+          - Evaluate the credibility and relevance of cited sources
+          - Evaluate if debaters are repeating evidence without adding new insights
+          - Pay attention to how debaters critique each other's evidence usage
+          - Focus questions on critical aspects of both positions
+
+  intermediate:
+    messages:
+      - role: "user"
+        content: |
+          Claim to verify: "{CLAIM}"
+          Debaters' Positions:
+          {NAME_A} argues the claim is: {ANSWER_A}
+          {NAME_B} argues the claim is: {ANSWER_B}
+
+          Here's the current transcript of the debate:
+          <transcript>
+          {previous_rounds_transcript_debate}
+          </transcript>
+
+          Choose impactful questions to ask each debater. First, think about your analysis in <thinking></thinking> tags by carrying out these steps:
+          1. Evaluate the strengths and weaknesses of each debater's arguments and evidence usage
+          2. Compare the quality, reliability, and proper citation of evidence presented by both sides
+          3. Identify key claims that need stronger evidence or clarification
+          4. Assess how effectively each debater uses evidence to support their position
+          
+          Then, ask your questions to each debater inside <questions></questions> tags. Ensure both questions are in the same question tag, and you address each debater by name.
+
+  final:
+    messages:
+      - role: "user"
+        content: |
+          Based on the complete debate transcript:
+
+          <transcript>
+          {previous_rounds_transcript_debate}
+          </transcript>
+
+          First, explain your reasoning and analysis in <thinking></thinking> tags:
+          1. Analyze the key arguments and evidence presented by both debaters
+          2. Compare how effectively each debater used evidence to support their claims
+          3. Compare the strength of responses to your probing questions
+          4. Evaluate the credibility and relevance of cited sources
+          5. Consider which debater provided stronger evidence-based arguments
+          6. Note any significant claims made without proper evidence
+          7. Assess how well each debater critiqued their opponent's evidence usage
+          8. Explain your reasoning for your final verdict
+          
+          Then, provide your final decision in <decision></decision> tags, formatted exactly as:
+          "Verdict: <True|False>"
+
+          Remember:
+          - Put your full analysis and reasoning in the <thinking> section
+          - Only put your final verdict in the <decision> section

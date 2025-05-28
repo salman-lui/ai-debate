@@ -1,0 +1,1262 @@
+claim,veracity,label
+one type of covid-19 test identifies coronavirus proteins in a few seconds.,False,refute
+one type of covid-19 test identifies coronavirus proteins in thirty minutes.,True,support
+"a stretch of dna that increases the risk of severe illness from covid-19 was passed down from neanderthals 60,000 years ago.",True,support
+"a stretch of dna that increases the risk of severe illness from covid-19 was passed down from neanderthals 60,000 years ago.",True,support
+respiratory failure in covid-19 has no genetic basis for susceptibility.,False,refute
+ultraviolet light is associated with lower covid-19 growth rates.,True,support
+ultraviolet light is associated with higher covid-19 growth rates.,False,refute
+roughly 1.7 billion people around the world — 22 percent of the global population — fall into the category of high-risk of severe covid-19 because of an underlying condition.,True,support
+bats' biological ability to detect cytosolic dna in the body helps them respond to and fight against viruses.,False,refute
+bats' biological ability to detect cytosolic dna in the body helps them respond to and coexist with viruses.,True,support
+bats' biological ability to detect cytosolic dna in the body helps them respond to and coexist with viruses.,True,support
+a research team found that no drugs target the same proteins in our cells the novel coronavirus does.,False,refute
+a research team found 69 drugs that target the same proteins in our cells the novel coronavirus does.,True,support
+children under 18 are the demographic most likely to exhibit severe symptoms or die from covid-19.,False,refute
+children under 18 are the demographic most likely to exhibit severe symptoms or die from covid-19.,False,refute
+children under 18 are at much lower risk of severe symptoms or death from covid-19 than older adults.,True,support
+there is little evidence that people can transmit diseases by coughing.,False,refute
+there is little evidence that people can transmit diseases by coughing.,False,refute
+more than 90 percent of novel coronavirus cases have serious or fatal symptoms.,False,refute
+more than 90 percent of novel coronavirus cases have serious or fatal symptoms.,False,refute
+around 80 percent of people infected with the novel coronavirus have relatively mild or no symptoms.,True,support
+around 80 percent of people infected with the novel coronavirus have relatively mild or no symptoms.,True,support
+covid-19 does not have a humidity or temperature dependent niche.,False,refute
+covid-19 seems to have a niche in dry conditions with relatively cool temperatures.,True,support
+covid-19 seems to have a niche in dry conditions with relatively cool temperatures.,True,support
+there is no relationship between covid-19 growth rates and the increase in ultraviolet light during the summer.,False,refute
+there is no relationship between covid-19 growth rates and the increase in ultraviolet light during the summer.,False,refute
+covid-19 growth rates may decrease in the summer due to increased ultraviolet light.,True,support
+covid-19 increases the risk for stroke only when patients have a significant number of pre-existing stroke risk factors.,False,refute
+covid-19 increases the risk for stroke only when patients have a significant number of pre-existing stroke risk factors.,False,refute
+covid-19 increases the risk for stroke only when patients have a significant number of pre-existing stroke risk factors.,False,refute
+young patients with covid-19 can have sudden strokes with few to no prior risk factors.,True,support
+young patients with covid-19 can have sudden strokes with few to no prior risk factors.,True,support
+young patients with covid-19 can have sudden strokes with few to no prior risk factors.,True,support
+young patients with covid-19 can have sudden strokes with few to no prior risk factors.,True,support
+covid-19 is only emitted during large acts of expulsion like coughing and sneezing.,False,refute
+all critically ill covid-19 patients required mechanical ventilation to recover.,False,refute
+only symptomatic covid-19 patients are infectious.,False,refute
+there are no potential treatments for covid-19.,False,refute
+nearly 70 drugs and experimental compounds may be effective in treating the covid-19.,True,support
+widespread cases of covid-19 in the united states can be traced to domestic transmission.,True,support
+mask-wearers with clinical respiratory illness are less likely to infect others in their households who are not wearing masks.,True,support
+cases of covid-19 and kawasaki disease occur in isolated instances.,False,refute
+covid-19 has been linked with cases of a similar rare condition in children called kawasaki disease.,True,support
+the coronavirus is only life-threatening for adult populations.,False,refute
+children have the potential to become seriously ill from the coronavirus.,True,support
+hydroxychloroquine reduces the risk of death for patients with covid-19.,False,refute
+hydroxychloroquine reduces the risk of death for patients with covid-19.,False,refute
+the use of hydroxychloroquine alone as a treatment for covid-19 is associated with a higher risk of death.,True,support
+the use of hydroxychloroquine alone as a treatment for covid-19 is associated with a higher risk of death.,True,support
+covid-19 is predicted to act in resurgent waves of infection.,True,support
+there was no impact on the mental health of medical workers treating covid-19 patients.,False,refute
+there was no impact on the mental health of medical workers treating covid-19 patients.,False,refute
+"high rates of anxiety, depression, and insomnia were found among medical workers who treated covid-19 patients.",True,support
+"high rates of anxiety, depression, and insomnia were found among medical workers who treated covid-19 patients.",True,support
+adverse mental health outcomes have not been observed among health care workers treating covid-19 patients.,False,refute
+health care workers on the frontlines of the coronavirus pandemic suffer elevated rates of mental health issues.,True,support
+cats cannot catch covid-19.,False,refute
+cats cannot catch covid-19.,False,refute
+cats are susceptible to covid-19 infection.,True,support
+"researchers at the university of hong kong recently estimated there were probably around 232,000 confirmed covid-19 cases in china by late february 2020, more than four times the number of reported cases at the time.",True,support
+"researchers at the university of hong kong recently estimated there were probably around 232,000 confirmed covid-19 cases in china by late february 2020, more than four times the number of reported cases at the time.",True,support
+"during the initial outbreak in wuhan, the novel coronavirus spread with an r0 close to 0.",False,refute
+"during the initial outbreak in wuhan, the novel coronavirus spread with an r0 close to 0.",False,refute
+"during the initial outbreak in wuhan, the novel coronavirus spread with an r0 of 5.7.",True,support
+the sars-cov-2 particles traced in patients' stools were highly infectious.,False,refute
+the sars-cov-2 particles traced in patients' stools were lacking infectious ability.,True,support
+the major outbreaks in the us can be traced back to an early introduction of the coronavirus in january.,False,refute
+the major outbreaks in the us can be traced back to an early introduction of the coronavirus in january.,False,refute
+there is no airborne transmission of covid-19.,False,refute
+covid-19 may be spread through droplets expelled by breathing and talking.,True,support
+flat surgical face masks have none or little impact on preventing or reducing coronavirus-carrying respiratory droplets from being released into the surrounding air.,False,refute
+flat surgical face masks significantly reduced the number of coronavirus-carrying droplets that mask wearers released into the surrounding air.,True,support
+only the oldest patients exhibit illness from covid-19.,False,refute
+men often have higher levels of antibodies than women once exposed to covid-19.,False,refute
+"in the most severe covid-19 cases, women often had a higher level of antibodies than men.",True,support
+the transmission of covid-19 in the united states slowed down in march 2020.,False,refute
+the transmission of covid-19 in the united states slowed down in march 2020.,False,refute
+the transmission of covid-19 in the united states speeded up in march 2020.,True,support
+the length of the covid-19 outbreak cannot be shortened.,False,refute
+"coronavirus complications are higher among patients with heart complications, even when previously healthy.",True,support
+"initial covid-19 cases in europe and the united states, discovered in january 2020, were unrelated to the outbreaks that eventually followed.",True,support
+"initial covid-19 cases in europe and the united states, discovered in january 2020, were unrelated to the outbreaks that eventually followed.",True,support
+high levels of il-6 portend respiratory failure and death,True,support
+high levels of a cytokine called interleukin-6 (il-6) are associated with respiratory failure and death in covid-19 patients.,True,support
+drugs that block interleukin-6 activity can increase likelihood of death among mechanically ventilated covid-19 patients.,False,refute
+drugs that block interleukin-6 activity can decrease likelihood of death among mechanically ventilated covid-19 patients.,True,support
+there is no evidence that actemra improves outcomes for any patients with covid-19.,False,refute
+actemra lowers the risk of death in covid-19 patients with high levels of interleukin-6 (il-6).,True,support
+the severity of covid-19 is unrelated to the role of macrophage activation.,False,refute
+the severity of covid-19 can be attributed specifically to the role of macrophage activation.,True,support
+a simple surgical face mask fails to trap viral droplets from coughs and sneezes.,False,refute
+a simple surgical face mask is very effective at trapping viral droplets from coughs and sneezes.,True,support
+"horseshoe bats in yunnan province, china, are the most likely originators of the sars-cov virus that infected humans.",True,support
+one of the lowest risk factors for critical covid-19 hospitalization is high bmi.,False,refute
+one of the lowest risk factors for critical covid-19 hospitalization is high bmi.,False,refute
+one of the highest risk factors for critical covid-19 hospitalization is high bmi.,True,support
+covid-19 patients with a high bmi are less likely to be critically ill with the virus.,False,refute
+covid-19 patients with a high bmi are more likely to be critically ill with the virus.,True,support
+covid-19 patients with a high bmi are more likely to be critically ill with the virus.,True,support
+only the oldest demographics of covid-19-positive patients have required hospitalization.,False,refute
+the seems to be vertical transmission of the new coronavirus from mother to fetus.,False,refute
+the new coronavirus does not seem to cross from mother to fetus.,True,support
+pro-vaccine facebook clusters are smaller in size than anti-vaccine clusters.,False,refute
+anti-vaccine facebook clusters are smaller in size than pro-vaccine clusters.,True,support
+"hydroxychloroquinewas associates with “increased overall mortality.""",True,support
+"it found no evidence that hydroxychloroquinewas associated with “increased overall mortality.""",False,refute
+it found no evidence that hydroxychloroquine reduced patients’ chances of being put on a mechanical ventilator.,True,support
+administering hydroxychloroquine to patients with covid-19 greatly lowers their risk of mortality.,False,refute
+hydroxychloroquine does not lower the risk of mortality in patients with covid-19.,True,support
+hydroxychloroquine does not lower the risk of mortality in patients with covid-19.,True,support
+novel coronavirus patients who received hydroxychloroquine were less likely to have abnormal heart rhythms than novel coronavirus patients who did not receive the drug.,False,refute
+novel coronavirus patients who received hydroxychloroquine were less likely to have abnormal heart rhythms than novel coronavirus patients who did not receive the drug.,False,refute
+novel coronavirus patients who received hydroxychloroquine were more likely to have abnormal heart rhythms than novel coronavirus patients who did not receive the drug.,True,support
+novel coronavirus patients who received hydroxychloroquine were more likely to have abnormal heart rhythms than novel coronavirus patients who did not receive the drug.,True,support
+social relations have no impact on the coronavirus vaccine and hand washing decisions.,False,refute
+social closeness with neighbors was associated with getting the coronavirus vaccine and frequent hand washing.,True,support
+children tend to be less susceptible to infection from covid-19 than adults are.,True,support
+individuals with covid-19 antibodies present a greater risk in high-transmission settings than individuals without covid-19 antibodies.,False,refute
+individuals with covid-19 antibodies present a greater risk in high-transmission settings than individuals without covid-19 antibodies.,False,refute
+people who have covid-19 antibodies could safely replace other individuals in high-transmission settings.,True,support
+people who have covid-19 antibodies could safely replace other individuals in high-transmission settings.,True,support
+the same antibodies from a llama that staved off sars and mers could also neutralize the new virus that causes covid-19.,True,support
+the same antibodies from a llama that staved off sars and mers could also neutralize the new virus that causes covid-19.,True,support
+the same antibodies from a llama that staved off sars and mers could also neutralize the new virus that causes covid-19.,True,support
+locking down sooner in response to the coronavirus would not have saved a significant number of lives.,False,refute
+"if the united states had imposed social-distancing measures one week earlier, 36,000 fewer people would have died from the coronavirus.",True,support
+"if the united states had imposed social-distancing measures one week earlier, 36,000 fewer people would have died from the coronavirus.",True,support
+the covid-19 vaccine currently does not provide immunity.,False,refute
+the covid-19 vaccine resulted in a moderate immune response to covid-19.,True,support
+"traditional, manual contact tracing is too fast to keep pace with the spread of the novel coronavirus.",False,refute
+"traditional, manual contact tracing is too fast to keep pace with the spread of the novel coronavirus.",False,refute
+"traditional, manual contact tracing is too slow to keep pace with the spread of the novel coronavirus.",True,support
+blood pressure drugs increase severity of covid-19 cases.,False,refute
+a new study finds evidence of a sick mother transferring covid-19 to her unborn baby.,False,refute
+a new study finds evidence of a sick mother transferring covid-19 to her unborn baby.,False,refute
+"although emerging evidence suggests a sick mother cannot transfer covid-19 to an unborn baby, many pregnant women in china are still nervous.",True,support
+"although emerging evidence suggests a sick mother cannot transfer covid-19 to an unborn baby, many pregnant women in china are still nervous.",True,support
+"older people, men, racial and ethnic minorities, and those with underlying health conditions are among the more vulnerable populations when it comes to covid-19 fatality.",True,support
+covid-19 testing that can simultaneously screen patients for the novel coronavirus and its antibodies worsens diagnostic sensitivity.,False,refute
+covid-19 testing that can simultaneously screen patients for the novel coronavirus and its antibodies can improve diagnostic sensitivity.,True,support
+covid-19 testing that can simultaneously screen patients for the novel coronavirus and its antibodies can improve diagnostic sensitivity.,True,support
+treating covid-19 patients is not associated with any psychological effects in medical workers.,False,refute
+experiments in mice hint that injecting interferons may help against covid-19,True,support
+people naturally do not touch their faces often.,False,refute
+people naturally do not touch their faces often.,False,refute
+"people touch their eyes, nostrils, and lips frequently.",True,support
+"people touch their eyes, nostrils, and lips frequently.",True,support
+putting a few americans at risk is worth the value of accelerating covid-19 vaccines.,True,support
+with a large number of documented covid-19 infections in march herd immunity was established.,False,refute
+a large number of documented covid-19 infections in march did not establish herd immunity.,True,support
+transmission of the coronavirus occurs only via viral droplets on surfaces.,False,refute
+individuals with covid-19 can transmit the virus by speaking normally in  an enclosed space.,True,support
+the novel coronavirus fails to be transmitted by respiratory droplets in cats.,False,refute
+the novel coronavirus fails to be transmitted by respiratory droplets in cats.,False,refute
+"while the novel coronavirus is present in feces, it cannot be transmitted through them.",False,refute
+the novel coronavirus can be passed through virus-laden feces.,True,support
+covid-19 was first present in france in january 2020.,False,refute
+covid-19 was present in france as early as december 2019.,True,support
+non-absorptive material has been shown to be better than absorptive material for personal protective clothing when combating coronaviruses other than sars-cov-2.,False,refute
+non-absorptive material has been shown to be better than absorptive material for personal protective clothing when combating coronaviruses other than sars-cov-2.,False,refute
+absorbent material has been shown to be better than non-absorptive material for personal protective clothing when combating coronaviruses other than sars-cov-2.,True,support
+absorbent material has been shown to be better than non-absorptive material for personal protective clothing when combating coronaviruses other than sars-cov-2.,True,support
+a recent study showed that kids with intellectual and developmental disabilities are slightly less likely to die from covid-19.,False,refute
+models projecting  expected number of cases and deaths in the coming weeks due to covid-19 are perfectly accurate and precise.,False,refute
+models projecting  expected number of cases and deaths in the coming weeks due to covid-19 are perfectly accurate and precise.,False,refute
+models projecting  expected number of cases and deaths in the coming weeks due to covid-19 are perfectly accurate and precise.,False,refute
+models projecting  expected number of cases and deaths in the coming weeks due to covid-19 are based on little data and have very large uncertainty.,True,support
+models projecting  expected number of cases and deaths in the coming weeks due to covid-19 are based on little data and have very large uncertainty.,True,support
+models projecting  expected number of cases and deaths in the coming weeks due to covid-19 are based on little data and have very large uncertainty.,True,support
+simply speaking normally can release airborne droplets that can transmit covid-19.,True,support
+simply speaking normally can release airborne droplets that can transmit covid-19.,True,support
+scientists have confirmed that the virus that causes covid-19 was directly transmitted to humans from pangolins.,False,refute
+talking can propel thousands of droplets so small they can remain suspended in the air for 8 to 14 hours.,False,refute
+talking can propel thousands of droplets so small they can remain suspended in the air for 8 to 14 hours.,False,refute
+talking can propel thousands of droplets so small they can remain suspended in the air for eight to 14 minutes.,True,support
+favipiravir has been associated with worse health outcomes for covid-19 patients.,False,refute
+favipiravir has been associated with worse health outcomes for covid-19 patients.,False,refute
+favipiravir may be helpful in treating covid-19.,True,support
+favipiravir may be helpful in treating covid-19.,True,support
+favipiravir worsened covid-19 in patients.,False,refute
+"inhalation of small, floating droplets was an insignificant factor in covid-19 transmission on the diamond princess ship.",False,refute
+the covid-19 virus does not spread via airborne droplets.,False,refute
+"computer modeling supports evidence implicating small, airborne droplets in multiple outbreaks of covid-19.",True,support
+"by june 2020, most of the population in several us metro areas had been infected with the coronavirus.",False,refute
+"by june 2020, only a small fraction of the population around us urban centers had been infected with the coronavirus.",True,support
+"no individuals in new york city tested positive for antibodies of the novel coronavirus between from april 19-28, 2020.",False,refute
+"22.7 percent of new york city residents in the study tested positive for antibodies of the novel coronavirus between from april 19-28, 2020.",True,support
+"22.7 percent of new york city residents in the study tested positive for antibodies of the novel coronavirus between from april 19-28, 2020.",True,support
+the majority of covid-19-positive patients did not exhibit symptoms.,True,support
+it is impossible that the novel coronavirus might include neurological effects.,False,refute
+it is possible that the novel coronavirus might include neurological effects.,True,support
+wearing a face mask does not reduce the likelihood that someone with coronavirus spreads it to another person.,False,refute
+widespread face mask use could result in a large reduction in the spread of covid-19.,True,support
+"face coverings can increase the chance that we’ll inadvertently spread the novel coronavirus, infecting others.",False,refute
+"face coverings can increase the chance that we’ll inadvertently spread the novel coronavirus, infecting others.",False,refute
+"face coverings can reduce the chance that we’ll inadvertently spread the novel coronavirus, infecting others.",True,support
+"face coverings can reduce the chance that we’ll inadvertently spread the novel coronavirus, infecting others.",True,support
+face coverings have no effect on the transmission rate of the coronavirus.,False,refute
+wearing a face covering reduces the chance that individuals with the coronavirus transmit it to others.,True,support
+sunlight could increase the amount of the novel coronavirus lingering on surfaces.,False,refute
+sunlight could help to reduce the amount of the novel coronavirus lingering on surfaces.,True,support
+there is no observable difference between indoor and outdoor spaces with respect to the transmission of covid-19.,False,refute
+there is no observable difference between indoor and outdoor spaces with respect to the transmission of covid-19.,False,refute
+being indoors with others is an important contributing factor to the spread of covid-19.,True,support
+being indoors with others is an important contributing factor to the spread of covid-19.,True,support
+covid-19 is more easily spread outdoors.,False,refute
+covid-19 is more easily spread outdoors.,False,refute
+"synthetic interferons, a treatment option for a number of immune disorders, are inapplicable to the treatment of covid-19.",False,refute
+"injecting synthetic interferons, a standard treatment for a number of immune disorders may help treat covid-19.",True,support
+"injecting synthetic interferons, a standard treatment for a number of immune disorders may help treat covid-19.",True,support
+hydroxychloroquine prevents patients from requiring ventilators.,False,refute
+hydroxychloroquine prevents patients from requiring ventilators.,False,refute
+hydroxychloroquine does not help patients avoid being placed on a ventilator.,True,support
+hydroxychloroquine does not help patients avoid being placed on a ventilator.,True,support
+"as a covid-19 treatment on its own, hydroxychloroquine is associated with decreased overall mortality.",False,refute
+"as a covid-19 treatment on its own, hydroxychloroquine is associated with increased overall mortality.",True,support
+"as a covid-19 treatment on its own, hydroxychloroquine is associated with increased overall mortality.",True,support
+ferrets pass the novel coronavirus on to one another in a different way than humans do.,False,refute
+ferrets pass the novel coronavirus on to one another in the same way that humans do.,True,support
+"as long as you are six feet apart, you cannot contract the coronavirus while indoors.",False,refute
+"as long as you are six feet apart, you cannot contract the coronavirus while indoors.",False,refute
+the coronavirus can spread through the air in enclosed spaces.,True,support
+the coronavirus can spread through the air in enclosed spaces.,True,support
+white mortality from covid-19 is 3.57 times black mortality.,False,refute
+white mortality from covid-19 is 3.57 times black mortality.,False,refute
+black mortality from covid-19 is 3.57 times white mortality.,True,support
+black mortality from covid-19 is 3.57 times white mortality.,True,support
+the transmission of sars-cov-2 is not related to the airflow direction within an indoor space.,False,refute
+the transmission of sars-cov-2 is not related to the airflow direction within an indoor space.,False,refute
+"the airflow direction in an air-conditioned restaurant in guangzhou, china where there was an outbreak of covid-19 was consistent with droplet transmission of the sars-cov-2 virus.",True,support
+"the airflow direction in an air-conditioned restaurant in guangzhou, china where there was an outbreak of covid-19 was consistent with droplet transmission of the sars-cov-2 virus.",True,support
+hospitalization with covid-19 occurs most for young adults.,False,refute
+hospitalization with covid-19 occurs significantly more for older adults.,True,support
+children are less likely to become sick with covid-19.,True,support
+only 12 percent of people with confirmed sars-cov-2 infections have no symptoms.,False,refute
+some 43 percent of people with confirmed sars-cov-2 infections have no symptoms.,True,support
+sars-cov is unable to infect the central nervous system.,False,refute
+"almost 25,000 pigs died from the novel coronavirus sars-cov-2 in guangdong province.",False,refute
+"almost 25,000 pigs died from a bat-originated coronavirus sads-cov in guangdong province.",True,support
+a peer-reviewed journal published a paper claiming that the new coronavirus (sars-cov-2) probably originated in pangolins.,True,support
+a large-scale influenza epidemic simulation finds that closing schools increases the total number of cases in the community by up to 80 percent.,False,refute
+there is no evidence that singing increases the likelihood of spreading covid-19.,False,refute
+singing may result in increased transmission of covid-19 due to the increased emission of aerosolized virus.,True,support
+sars-cov-2 can only be spread by individuals with severe symptoms of coronavirus.,False,refute
+surgical masks are effective in preventing infected persons from spreading covid-19 through respiratory droplets.,True,support
+research has found no human proteins that interact with sars-cov-2 and are vulnerable to being targeted with drugs.,False,refute
+research has found no human proteins that interact with sars-cov-2 and are vulnerable to being targeted with drugs.,False,refute
+immunity to covid-19 lasts approximately fifteen months on average after recovery.,False,refute
+it is current unclear how long immunity will last after recovery from a case of covid-19.,True,support
+results of all covid-19 test kits can be trusted.,False,refute
+results of all covid-19 test kits can be trusted.,False,refute
+some covid-19 test kits are not reliable enough to use,True,support
+some covid-19 test kits are not reliable enough to use,True,support
+there are no tests that can detect covid-19.,False,refute
+covid-19 elisa and lateral flow immunoassays tests are not yet reliable enough to use.,True,support
+covid-19 elisa and lateral flow immunoassays tests are not yet reliable enough to use.,True,support
+estimates from researchers put the r0 of covid-19 between 2 and 3.,True,support
+antibody tests are unable to detect if someone has ever had the novel coronavirus.,False,refute
+antibody tests are unable to detect if someone has ever had the novel coronavirus.,False,refute
+antibody tests can tell if someone has ever had the novel coronavirus.,True,support
+antibody tests can tell if someone has ever had the novel coronavirus.,True,support
+no company has ever made a test for immunity to diseases like covid-19.,False,refute
+younger patients and those with chronic ailments seem to get more severely ill from coronavirus.,False,refute
+older patients and those with chronic ailments get more severely ill from coronavirus.,True,support
+covid-19 patients experience no significant risk factors for delirium during their treatment.,False,refute
+covid-19 patients typically are at high risk for delirium.,True,support
+there are no demographic-based differences in engaging in health behaviors protecting against coronavirus.,False,refute
+men have been less likely than women to engage in coronavirus protective health behaviors.,True,support
+men have been less likely than women to engage in coronavirus protective health behaviors.,True,support
+there is no association between near-universal mask wearing and a reduction in covid-19 transmission in hong kong.,False,refute
+there is no association between near-universal mask wearing and a reduction in covid-19 transmission in hong kong.,False,refute
+there is no association between near-universal mask wearing and a reduction in covid-19 transmission in hong kong.,False,refute
+"in hong kong, citizens’ near-universal mask-wearing is a factor in the reduced transmission of covid-19.",True,support
+"in hong kong, citizens’ near-universal mask-wearing is a factor in the reduced transmission of covid-19.",True,support
+"in hong kong, citizens’ near-universal mask-wearing is a factor in the reduced transmission of covid-19.",True,support
+homemade cloth masks are more effective than proper surgical ones in blocking bacterial and viral aerosols.,False,refute
+homemade cloth masks are more effective than proper surgical ones in blocking bacterial and viral aerosols.,False,refute
+homemade cloth masks are more effective than proper surgical ones in blocking bacterial and viral aerosols.,False,refute
+homemade cloth masks are less effective than proper surgical ones in blocking bacterial and viral aerosols.,True,support
+homemade cloth masks are less effective than proper surgical ones in blocking bacterial and viral aerosols.,True,support
+there is no link between a patient's nutrient composition and the administration of coronavirus treatments.,False,refute
+covid-19 has a secondary attack rate of 80 percent.,False,refute
+"from march through may 2020, the number of deaths in the us was 122,000 higher than expected without the pandemic.",True,support
+those with higher overall covid-19 antibodies may experience a decline in antibodies faster than those with fewer overall covid-19 antibodies.,False,refute
+those with higher overall covid-19 antibodies may experience a decline in antibodies faster than those with fewer overall covid-19 antibodies.,False,refute
+those with fewer overall covid-19 antibodies may experience a decline in antibodies faster than those with higher overall covid-19 antibodies.,True,support
+those with fewer overall covid-19 antibodies may experience a decline in antibodies faster than those with higher overall covid-19 antibodies.,True,support
+the presence of antibodies is the only way to detect if someone has had exposure to covid-19.,False,refute
+the presence of antibodies is the only way to detect if someone has had exposure to covid-19.,False,refute
+some people recovering from covid-19 show strong t-cell responses while not having detectable antibodies.,True,support
+some people recovering from covid-19 show strong t-cell responses while not having detectable antibodies.,True,support
+some people recovering from covid-19 show strong t-cell responses while not having detectable antibodies.,True,support
+the only virus that bears substantial genetical similarity to the virus that causes covid-19 is a coronavirus which typically affects cows.,False,refute
+the virus that causes covid-19 is closely genetically related to a coronavirus found in bats.,True,support
+asymptomatic carriers of covid-19 have been responsible for more infections than those with symptoms because there have been more asymptomatic cases.,True,support
+"genetically, sars-cov-2 is dissimilar to coronaviruses found in pangolins.",False,refute
+studies have found a genetic similarity between sars-cov-21 and coronaviruses found in pangolins.,True,support
+sewage surveillance is not an effective way to monitor the presence of coronavirus in a population.,False,refute
+coronavirus would not appear in city sewage.,False,refute
+covid-19 patients receiving hydroxychloroquine died at higher rates than other novel coronavirus patients not receiving the regimen.,True,support
+there is no evidence that pregnant women with coronavirus suffer more severe complications than non-pregnant populations.,True,support
+"compared to medical masks, cloth masks are associated with lower infection outcomes.",False,refute
+"compared to medical masks, cloth masks are associated with lower infection outcomes.",False,refute
+"compared to medical masks, cloth masks are associated with lower infection outcomes.",False,refute
+"compared to medical masks, cloth masks are associated with higher infection outcomes.",True,support
+"compared to medical masks, cloth masks are associated with higher infection outcomes.",True,support
+it is advised to limit nonessential travel to countries that have seen the highest numbers of cases of covid-19 to reduce the spread of covid-19.,True,support
+covid-19 can be transmitted by pre-symptomatic individuals.,True,support
+how well a surgical mask protects the wearer from smaller particles is fairly constant.,False,refute
+surgical face masks significantly increase droplets expelled by those with respiratory viral illness.,False,refute
+surgical masks do not provide you with full protection from covid-19.,True,support
+surgical masks are as effective as respiratory protection devices at protecting individuals from covid-19.,False,refute
+genetic sequencing indicates that the virus that causes covid-19 is likely to have originated in bats.,True,support
+"viruses do not spread easily among different bat species sharing living spaces, such as caves and hollowed out trees.",False,refute
+"viruses do not spread easily among different bat species sharing living spaces, such as caves and hollowed out trees.",False,refute
+"members of different bat species share living spaces in very large groups, allowing viruses to spread easily among them.",True,support
+the worst material to slip in a cloth mask as a filter is polypropylene.,False,refute
+the best material to slip in a cloth mask as a filter is polypropylene.,True,support
+there have been no covid-19 cases related to cruise voyages.,False,refute
+there is no correlation between when symptoms appear and when amounts of the novel coronavirus are detectable in a person.,False,refute
+social distancing of at least 1 meter reduces covid-19 transmission.,True,support
+there is no correlation between participation in fitness activities and the transmission of coronavirus.,False,refute
+the spread of coronavirus has been associated with activities like panting from exertion at the gym.,True,support
+"among women with covid-19, pregnant women are at increased risk of being hospitalized.",True,support
+there have only been a handful of studies so far on the effects of mask wearing on curbing transmission of covid-19.,False,refute
+many studies examine the effect of mask wearing on transmission of covid-19.,True,support
+covid-19-positive patients who do not show symptoms are not contagious.,False,refute
+people can spread the coronavirus before they started coughing and feeling achy.,True,support
+"under 30% of 25,000 confirmed covid-19 cases in wuhan, china are likely to be asymptomatic or mild-symptom individuals.",False,refute
+"under 30% of 25,000 confirmed covid-19 cases in wuhan, china are likely to be asymptomatic or mild-symptom individuals.",False,refute
+"under 30% of 25,000 confirmed covid-19 cases in wuhan, china are likely to be asymptomatic or mild-symptom individuals.",False,refute
+young people in new york and los angeles are broadly against measures such as wearing face masks.,False,refute
+young people in new york and los angeles are broadly against measures such as wearing face masks.,False,refute
+young people in new york and los angeles are broadly supportive of measures such as wearing face masks.,True,support
+but it’s important to note all people with coronavirus have symptoms.,False,refute
+it’s important to note many people with coronavirus — possibly up to 50% — have no symptoms at all.,True,support
+the coronavirus is more dangerous for the elderly than the young.,True,support
+the coronavirus is more dangerous for the elderly than the young.,True,support
+the new crown virus is more dangerous for young people than old people.,False,refute
+the new crown virus is more dangerous for young people than old people.,False,refute
+most covid-19 patients in a wuhan hospital in january 2020 were women.,False,refute
+most covid-19 patients in a wuhan hospital in january 2020 were women.,False,refute
+most covid-19 patients in a wuhan hospital in january 2020 were men.,True,support
+there is little consensus among the blood proteins found in severely ill covid-19 patients.,False,refute
+scientists have found trends in common blood proteins found in severely ill covid-19 patients.,True,support
+recent scientific studies find no evidence of localized genetic susceptibility to respiratory failure in covid-19 patients.,False,refute
+religious gatherings have not caused the widespread transmission of covid-19.,False,refute
+airflow within a room is a reliable method for inhibiting covid-19 transmission.,False,refute
+"among healthcare workers caring for patients with covid-19, female front-line workers are less affected by mental health conditions such as depression or anxiety than the body of healthcare workers overall.",False,refute
+patients who had been infected with sars do not retain the virus-specific antibodies in their bodies indefinitely.,True,support
+patients who had been infected with sars do not retain the virus-specific antibodies in their bodies indefinitely.,True,support
+2019-ncov is a coronavirus that crossed over from animals to humans.,True,support
+2019-ncov is a coronavirus that crossed over from animals to humans.,True,support
+the virus 2019-ncov originated in the human population.,False,refute
+the virus 2019-ncov originated in the human population.,False,refute
+the novel coronavirus is from a different species than the virus that caused the outbreak of severe acute respiratory syndrome (sars) in china in 2002-2003.,False,refute
+wearing face masks can increase the risk of novel coronavirus infection.,False,refute
+wearing face masks can reduce the risk of novel coronavirus infection.,True,support
+wearing face masks can increase the risk of novel coronavirus infection.,False,refute
+wearing face masks can reduce the risk of novel coronavirus infection.,True,support
+wearing face masks can reduce the risk of novel coronavirus infection.,True,support
+"at the time of writing, there were several effective therapies in combatting covid-19.",False,refute
+"at the time of writing, there were no effective therapies in combatting covid-19.",True,support
+"at the time of writing, there were no effective therapies in combatting covid-19.",True,support
+increase health care capacity would have no effect on the duration of the covid-19 pandemic.,False,refute
+building up health care capacity is required to curb the covid-19 pandemic.,True,support
+limiting the use of crowded workspaces does not slow the spread of coronavirus.,False,refute
+limiting the use of crowded workspaces where workers were in close proximity slows the spread of coronavirus.,True,support
+young people are at high risk of dying from covid-19 infection.,False,refute
+the risk of dying from covid-19 infection among young people is relatively low.,True,support
+the novel coronavirus uses a different entry point into human cells as sars does.,False,refute
+the novel coronavirus uses a different entry point into human cells as sars does.,False,refute
+the novel coronavirus uses the same entry point into human cells as sars does.,True,support
+the novel coronavirus uses the same entry point into human cells as sars does.,True,support
+"among those who contract covid-19, children have the highest mortality rate.",False,refute
+advanced age is a risk factor for a severe outcome in covid-19 cases.,True,support
+"the spike d614g mutation is does not spread as easily as other variants, and is therefore not concerning.",False,refute
+the spike d614g mutation began spreading in europe in february 2020.,True,support
+there is no link between the activity of singing and the transmission of covid-19.,False,refute
+singing may contribute to the transmission of covid-19 through the emission of aerosols.,True,support
+contracting the virus outdoors is extremely likely.,False,refute
+contracting the virus outdoors is extremely likely.,False,refute
+contracting the virus outside is very unlikely.,True,support
+you have the greatest chance of becoming infected with covid-19 when outside.,False,refute
+there is a greater risk of catching covid-19 indoors than there is risk of catching it outdoors.,True,support
+"most recommend adopting a range of measures, from mask use to physical distancing, to slow the virus’s spread and save lives.",True,support
+masks speed up the spread of the virus.,False,refute
+masks were beneficial in slowing the spread of the virus,True,support
+voluntary social distancing was hailed as a key reason for the lower rate of infections.,True,support
+voluntary social distancing was hailed as a key reason for the lower rate of infections.,True,support
+undocumented covid-19 cases are on average less contagious and are not the source of large amounts of documented cases.,False,refute
+"undocumented covid-19 cases, despite on average being less contagious, are huge in number, resulting in undocumented cases being the source of more than three-quarters of documented cases.",True,support
+the declaration of a national us emergency because of covid-19 caused an increase in emergency department visits for other life-threatening conditions.,False,refute
+the declaration of a national us emergency because of covid-19 caused an increase in emergency department visits for other life-threatening conditions.,False,refute
+the declaration of a national us emergency because of covid-19 caused a decline in emergency department visits for other life-threatening conditions.,True,support
+the declaration of a national us emergency because of covid-19 caused a decline in emergency department visits for other life-threatening conditions.,True,support
+convalescent plasma therapy does not improve clinical results in patients suffering from covid-19.,True,support
+the degree to which people who contract covid-19 tend to infect others is very consistent across all cases.,False,refute
+a small fraction of people who contract covid-19 appear to be responsible for a disproportionately large number of subsequent infections.,True,support
+the coronavirus only results in in respiratory impairment.,False,refute
+the coronavirus only results in in respiratory impairment.,False,refute
+the coronavirus can result in severe long-term neurological effects.,True,support
+the coronavirus can result in severe long-term neurological effects.,True,support
+"of doctors and nurses in china during the country’s covid-19 peak, half reported experiencing depression.",True,support
+"of doctors and nurses in china during the country’s covid-19 peak, half reported experiencing depression.",True,support
+"in the global influenza pandemic of 1918, u.s. birthrates stayed level in the initial three months following peak mortality.",False,refute
+"in the global influenza pandemic of 1918, u.s. birthrates dropped within the initial three months after peak mortality.",True,support
+there incidences of venous thromboembolism in the majority of patients with severe novel coronavirus pneumonia symptoms of sars-cov-2.,False,refute
+there are approximately 1 in 4 incidences of venous thromboembolism in patients with severe novel coronavirus pneumonia symptoms of sars-cov-2.,True,support
+chloroquine and hydroxychloroquine can be effective in treating covid-19.,True,support
+mask usage is not a proven means of reducing the transmission of the covid-19 virus from person to person.,False,refute
+wearing a face mask is a beneficial and effective means to prevent interhuman transmission of covid-19.,True,support
+"challenge trials for covid-19 vaccines, in which participants are intentionally infected with the virus, would have no impact on reducing the burden of covid-19.",False,refute
+"challenge trials for covid-19 vaccines, in which participants are intentionally infected with the virus, would have no impact on reducing the burden of covid-19.",False,refute
+"a study published in march argues for the use of challenge trials for covid-19 vaccines, in which participants are intentionally infected with the virus.",True,support
+children have a reduced risk of infection of covid-19 compared with teenagers and adults.,False,refute
+covid-19 is undetectable in conjunctival secretions.,False,refute
+hydroxychloroquine reliably mitigates the severity of symptoms in covid-19 patients.,False,refute
+it is not possible for a fetus to contract coronavirus in the womb.,False,refute
+it is not possible for a fetus to contract coronavirus in the womb.,False,refute
+some babies born to pregnant women with covid-19 may contract the disease in the womb.,True,support
+some babies born to pregnant women with covid-19 may contract the disease in the womb.,True,support
+children tend to exhibit severe and life-threatening symptoms of covid-19 when infected.,False,refute
+most children who contract covid-19 display only mild symptoms while ill.,True,support
+"individuals with blood type o are more susceptible to covid-19 infection, compared with the other blood groups.",False,refute
+"individuals with blood type a are more susceptible to covid-19 infection, compared with the other blood groups.",True,support
+"researchers have created an antibody ""that neutralizes sars-cov-2"" in cells, offering the potential for prevention and treatment.",True,support
+"researchers have created an antibody ""that neutralizes sars-cov-2"" in cells, offering the potential for prevention and treatment.",True,support
+"survivors of the 2012 mers outbreak, who had severe pneumonia, lacked any antibodies against the virus.",False,refute
+"survivors of the 2012 mers outbreak, who had severe pneumonia, had antibodies against the virus for 18 months after infection.",True,support
+"survivors of the 2012 mers outbreak, who had severe pneumonia, had antibodies against the virus for 18 months after infection.",True,support
+the majority of coronaviruses are equally persistent in all seasons.,False,refute
+the majority of coronaviruses have a winter seasonality.,True,support
+blood of recovered covid-19 patients impedes the treatment of other severe covid-19 cases.,False,refute
+blood of recovered covid-19 patients can aid in the treatment of other severe covid-19 cases.,True,support
+no information on the atomic structure of the coronavirus antibody is currently available.,False,refute
+high-resolution x-ray crystallography tools captured the coronavirus antibody's atomic structure.,True,support
+the coronavirus is only present in the air within six feet of an infected patient.,False,refute
+the coronavirus can be detected in the air up to 13 feet away from an infected patient.,True,support
+close monitoring of the fatality risk of covid-19 is crucial to preventing a second wave of infection.,True,support
+close monitoring of the reproduction number of covid-19 is unrelated to preventing a second wave of infections.,False,refute
+close monitoring of the reproduction number of covid-19 is unrelated to preventing a second wave of infections.,False,refute
+close monitoring of the reproduction number of covid-19 is crucial to preventing a second wave of infections.,True,support
+bits of covid-19's genetic materials were absent from hospital toilets.,False,refute
+bits of covid-19's genetic materials have been found floating in the air of hospital toilets.,True,support
+no direct neurological complications of covid-19 exist.,False,refute
+neurological implications are a risk of covid-19 infections.,True,support
+low-income countries can easily prevent both covid-19 related deaths and long-term economic collapse.,False,refute
+low-income countries can easily prevent both covid-19 related deaths and long-term economic collapse.,False,refute
+low-income countries especially will have to weigh the dilemma of preventing covid-19 related deaths with long-term economic collapse.,True,support
+low-income countries especially will have to weigh the dilemma of preventing covid-19 related deaths with long-term economic collapse.,True,support
+sars-cov-2 cellular immunity was not found in the blood of covid-19 patients once they became virus-free.,False,refute
+convalescent plasma given to severe covid-19 patients worsened their symptoms.,False,refute
+convalescent plasma given to severe covid-19 patients improved their symptoms.,True,support
+talking produces respiratory droplets that can remain in the air in a closed environment for less than a second.,False,refute
+talking produces respiratory droplets that can remain in the air in a closed environment for less than a second.,False,refute
+talking produces respiratory droplets that can remain in the air in a closed environment for about eight to 14 minutes.,True,support
+talking produces respiratory droplets that can remain in the air in a closed environment for about eight to 14 minutes.,True,support
+hydroxycholoroquine improves survival outcomes in patients with covid-19.,False,refute
+covid-19 transmission among children and young adults is declining in comparison with older demographics.,False,refute
+covid-19 transmission among children and young adults is declining in comparison with older demographics.,False,refute
+there has been a shift in covid-19 incidence from older to younger age groups.,True,support
+there has been a shift in covid-19 incidence from older to younger age groups.,True,support
+initial covid-19 modeling in and around china suggested that 44 percent of transmission came from symptomatic cases only.,False,refute
+initial covid-19 modeling in and around china suggested that 44 percent of transmission came from symptomatic cases only.,False,refute
+undocumented cases of covid-19 have never been a significant factor in its transmission.,False,refute
+undocumented cases of covid-19 were the source of the majority of documented cases in china before travel restrictions were implemented.,True,support
+plasma therapy is a new treatment being developed to target covid-19.,False,refute
+a new antiviral drug eidd-2801 has shown promise as a treatment for covid-19.,True,support
+eidd-2801 has been ineffective at treating coronaviruses in mice.,False,refute
+eidd-2801 has been shown to help treat sars-cov and mers-cov in mice.,True,support
+decreased levels of interleukin-6 are associated with respiratory failure in covid-19 patients.,False,refute
+decreased levels of interleukin-6 are associated with respiratory failure in covid-19 patients.,False,refute
+increased levels of certain ctyokines is strongly associated with respiratory failure in covid-19 patients.,True,support
+increased levels of certain ctyokines is strongly associated with respiratory failure in covid-19 patients.,True,support
+increased levels of certain ctyokines is strongly associated with respiratory failure in covid-19 patients.,True,support
+increased levels of certain ctyokines is strongly associated with respiratory failure in covid-19 patients.,True,support
+lab work on coronavirus has been free of contamination.,False,refute
+hydroxychloroquine is consistently effective in improving the prognosis of patients hospitalized with covid-19.,False,refute
+hydroxychloroquine does not significantly help patients hospitalized with covid-19.,True,support
+"hydroxychloroquine was associated with heart benefits in hospitalized covid-19 patients, according to a new study.",False,refute
+"hydroxychloroquine was associated with heart benefits in hospitalized covid-19 patients, according to a new study.",False,refute
+"hydroxychloroquine was associated with heart complications in hospitalized covid-19 patients, according to a new study.",True,support
+"hydroxychloroquine was associated with heart complications in hospitalized covid-19 patients, according to a new study.",True,support
+hydroxychloroquine is extremely effective at treating covid-19.,False,refute
+hydroxychloroquine does not improve health outcomes among patients with covid-19.,True,support
+cloth masks are just as effective at preventing infection as medical masks.,False,refute
+cloth masks are just as effective at preventing infection as medical masks.,False,refute
+cloth masks are just as effective at preventing infection as medical masks.,False,refute
+cloth masks are just as effective at preventing infection as medical masks.,False,refute
+cloth masks offer significantly less protection against infection than medical masks.,True,support
+cloth masks offer significantly less protection against infection than medical masks.,True,support
+cloth masks offer significantly less protection against infection than medical masks.,True,support
+cloth masks offer significantly less protection against infection than medical masks.,True,support
+seriously ill covid-19 patients who were treated with hydroxychloroquine or chloroquine were more likely to survive.,False,refute
+seriously ill covid-19 patients who were treated with hydroxychloroquine or chloroquine were more likely to survive.,False,refute
+"seriously ill covid-19 patients who were treated with hydroxychloroquine or chloroquine were more likely to die or develop dangerous irregular heart rhythms,",True,support
+"seriously ill covid-19 patients who were treated with hydroxychloroquine or chloroquine were more likely to die or develop dangerous irregular heart rhythms,",True,support
+"flight, which is shared by all bats but no other mammals, has allowed bats to evolve mechanisms that make them more susceptible to viruses.",False,refute
+"flight, which is shared by all bats but no other mammals, has allowed bats to evolve mechanisms that make them more susceptible to viruses.",False,refute
+"flight, which is shared by all bats but no other mammals, has allowed bats to evolve mechanisms that protect them from viruses.",True,support
+"in patients with covid-19, the virus stops being detectable three to five days after symptoms end.",False,refute
+horseshoe bats are immune to many sars-like coronaviruses.,False,refute
+horseshoe bats are the reservoir species for many sars-like coronaviruses.,True,support
+covid-19 is associated with a low inflammatory burden.,False,refute
+the 2003 coronavirus cannot jump from bats to humans without an intermediate host.,False,refute
+the 2003 coronavirus could have jumped straight from bats into humans without an intermediate host.,True,support
+covid-19 patients on mechanical ventilators are likely to fully recover.,False,refute
+preliminary data indicates that race has no association with chance of contracting covid-19.,False,refute
+a preliminary study shows that communities of color were disproportionately affected by covid-19.,True,support
+sustained community transmission of the virus began in late january or early february.,True,support
+limited community transmission of the virus began in late january or early february.,False,refute
+"covid-19 community transmission in the united states was occurring in late january or early february, weeks before community transmission was officially detected in the u.s.",True,support
+"a recent study found that 7.8% of examined patients in wuhan, china had neurological symptoms.",False,refute
+"a recent study of covid-19 patients in wuhan, china found that over one third had neurological symptoms.",True,support
+people under 20 years old are twice as susceptible to the covid-19 infection as those age 20 or over.,False,refute
+people under 20 years old are half as susceptible to the covid-19 infection as those age 20 or over.,True,support
+there is widespread concern among researchers that sars-cov-2 may mutate and become more dangerous.,False,refute
+sars-cov-2 is very unlikely to mutate in a way that makes the pandemic worse.,True,support
+school closures can halt the transmission of covid-19 completely.,False,refute
+school closures can reduce the incidence of covid-19 by a significant amount.,True,support
+"across 11 european countries, between 12 and 15 million people have been infected with the novel coronavirus through may of 2020.",True,support
+research suggests that children are not likely to die from the coronavirus or to suffer a severe health consequence.,True,support
+"a stretch of dna linked to severe covid-19 is not found in neanderthals, according to a new study.",False,refute
+"a stretch of dna linked to severe covid-19 is not found in neanderthals, according to a new study.",False,refute
+"a stretch of dna linked to severe covid-19 was passed down from neanderthals, according to a new study.",True,support
+"a stretch of dna linked to severe covid-19 was passed down from neanderthals, according to a new study.",True,support
+"older, frailer people, or those with underlying health issues, like diabetes or another chronic illness, are not likely to die from the virus covid-19.",False,refute
+"older, frailer people, or those with underlying health issues, like diabetes or another chronic illness, face the greater likelihood of dying from the virus covid-19.",True,support
+wearing a mask has no effect on the risk of sars infection.,False,refute
+"severe covid-19 cases showed no common risk factor connections including to chronic conditions like obesity, high blood pressure, and diabetes",False,refute
+"severe covid-19 cases showed no common risk factor connections including to chronic conditions like obesity, high blood pressure, and diabetes",False,refute
+"chronic conditions like obesity, high blood pressure, and diabetes are common risk factors for severe covid-19.",True,support
+"though estimates vary, models using data from hong kong, singapore and china suggest that 100 percent of spreading occurs when people have no symptoms of covid-19.",False,refute
+"though estimates vary, models using data from hong kong, singapore and china suggest that 30 to 60 percent of spreading occurs when people have no symptoms of covid-19.",True,support
+"the study found that new yorkers had antibodies to the coronavirus no earlier than march, 2020.",False,refute
+"the study found that some new yorkers had antibodies to the coronavirus as early as the week ending feb. 23, 2020.",True,support
+"the u.s. study found considerable coronavirus risk linked to three other classes of commonly used blood pressure drugs — beta blockers, calcium-channel blockers and thiazide diuretics.",False,refute
+countries that do not vaccinate their populations with bcg experience similar rates of coronavirus infection per capita as countries that do.,False,refute
+countries that do not vaccinate their populations with bcg experience similar rates of coronavirus infection per capita as countries that do.,False,refute
+countries that do not vaccinate their populations with bcg experience similar rates of coronavirus infection per capita as countries that do.,False,refute
+countries that do not vaccinate their populations with bcg have had more coronavirus infections per capita and higher death rates than countries that do.,True,support
+trials in canadian hospitals during the 2003 sars epidemic and during flu season showed that nurses who wore a mask were more likely to get flu.,False,refute
+trials in canadian hospitals during the 2003 sars epidemic and during flu season showed that nurses who wore a mask were less likely to get flu.,True,support
+women infected with the coronavirus had a similar level of antibodies as men.,False,refute
+previous studies have failed to determine how much coronavirus genetic material can be found in oral fluids in the average patient.,False,refute
+"although the scientists did not record speech droplets produced by people who were sick, previous studies have calculated exactly how much coronavirus genetic material can be found in oral fluids in the average patient.",True,support
+"other studies reported not finding the coronavirus on surfaces such as air vents in hospital rooms and on computer mice, sickbed handrails and doorknobs.",False,refute
+"other studies reported finding the coronavirus on air vents in hospital rooms and on computer mice, sickbed handrails and doorknobs.",True,support
+"antibodies may last past the convalescent phase of two to three months, in people who never showed symptoms while they were infected.",False,refute
+"antibodies — protective proteins made in response to an infection — may last only two to three months, especially in people who never showed symptoms while they were infected.",True,support
+a vaccine that elicits antibodies will be unable to thwart the coronavirus.,False,refute
+a vaccine that elicits antibodies might be enough to thwart the coronavirus.,True,support
+another report concluded on the basis of blood tests that cats had been infected in wuhan.,True,support
+another report concluded on the basis of blood tests that cats had been infected in wuhan.,True,support
+another report concluded on the basis of blood tests that cats had been infected in wuhan.,True,support
+most of the covid-19 patients in wuhan did not have a fever or cough when they were admitted to the hospital.,False,refute
+most of the covid-19 patients in wuhan did not have a fever or cough when they were admitted to the hospital.,False,refute
+most of the covid-19 patients in wuhan had fever or cough when they were admitted to the hospital.,True,support
+"but in pandemic times, there are even more worries: a study came out last month confirming that infectious coronavirus is absent from feces — something that was suspected but not known before.",False,refute
+"but in pandemic times, there are even more worries: a study came out last month confirming that infectious coronavirus is present in feces — something that was suspected but not known before.",True,support
+"in essence, he said, data mining of genomic data posted in the last 12 months — most importantly the october report on pangolins — indicated that a portion of a coronavirus in pangolins was not at all similar to one in the new virus, ncov-2019.",False,refute
+"in essence, he said, data mining of genomic data posted in the last 12 months — most importantly the october report on pangolins — indicated that a portion of a coronavirus in pangolins was nearly identical to one in the new virus, ncov-2019.",True,support
+the covid-19 rate for severe cases is equivalent for child and adult populations.,False,refute
+"since then, several studies have shown that actemra increases the risk of respiratory failure and death.",False,refute
+"since then, several studies have shown that actemra lowers the risk of respiratory failure and death.",True,support
+hydroxychloroquine had no impact on the coronavirus recovery time of patients who were mildly ill.,False,refute
+covid-19 is equally transmissible via indoor and outdoor environments.,False,refute
+covid-19 is equally transmissible via indoor and outdoor environments.,False,refute
+a review of thousands of cases in china found only a single instance of outdoor transmission of covid-19.,True,support
+a review of thousands of cases in china found only a single instance of outdoor transmission of covid-19.,True,support
+a few patients developed antibodies after infection with sars-cov-2.,False,refute
+patients had developed antibodies after infection with sars-cov-2.,True,support
+masks do not affect blocking the emission of respiratory droplets that may contain the coronavirus.,False,refute
+"two studies, each observing around 1,400 patients in new york city, concluded that administering hydroxychloroquine was associated with a lower risk of mortality.",False,refute
+"two studies, each observing around 1,400 patients in new york city, concluded that administering hydroxychloroquine was not associated with greatly lower risk of mortality.",True,support
+a virus found in sick malayan pangolins showed no resemblance to the coronavirus sickening people.,False,refute
+a virus found in sick malayan pangolins was almost identical to the coronavirus sickening people.,True,support
+the traveler screening system effectively prevented the introduction of covid-19 into california.,False,refute
+the traveler screening system was not effective in preventing the introduction of covid-19 into california.,True,support
+"as the virus continues to spread over the next months, and maybe even years, it could be much less deadly in areas with high rates of diabetes, obesity, high blood pressure and other chronic health conditions.",False,refute
+"the saliva test is unable to detect even large amounts of coronavirus, making it much less sensitive than similar tests, according to a study that has not yet been published in a scientific journal.",False,refute
+"the saliva test can detect even tiny amounts of coronavirus, making it more sensitive than similar tests, and gives false negatives less than 5 percent of the time, according to a study that has not yet been published in a scientific journal.",True,support
+"recent studies of medical workers in italy who treated covid-19 patients found stagnant rates of anxiety, depression and insomnia.",False,refute
+"recent studies of medical workers in italy who treated covid-19 patients found increasing rates of anxiety, depression and insomnia.",True,support
+men of color are no likelier to contract covid-19 than other populations.,False,refute
+men of color face higher risk of contracting covid-19.,True,support
+"in healthcare buildings the air exchange rate is usually much lower, however, the coronavirus is not able to accumulate in the air nor pose a greater risk.",False,refute
+"the french government ordered a lockdown on march 16, well in advance of the coronavirus's appearance in france, according to a study of the new case that has been peer-reviewed and accepted for formal publication in the international journal of antimicrobial agents",False,refute
+"the french government ordered a lockdown on march 16, well in advance of the coronavirus's appearance in france, according to a study of the new case that has been peer-reviewed and accepted for formal publication in the international journal of antimicrobial agents",False,refute
+"by the time the first serious measures were put in place — the french government didn’t order a lockdown until march 16 — the coronavirus may have already appeared three months earlier, according to a study of the new case that has been peer-reviewed and accepted for formal publication in the international journal of antimicrobial agents.",True,support
+"by the time the first serious measures were put in place — the french government didn’t order a lockdown until march 16 — the coronavirus may have already appeared three months earlier, according to a study of the new case that has been peer-reviewed and accepted for formal publication in the international journal of antimicrobial agents.",True,support
+"by the time the first serious measures were put in place — the french government didn’t order a lockdown until march 16 — the coronavirus may have already appeared three months earlier, according to a study of the new case that has been peer-reviewed and accepted for formal publication in the international journal of antimicrobial agents.",True,support
+cats cannot develop an infection with the coronavirus.,False,refute
+some studies estimate the coronavirus’s at greater than 5 days.,False,refute
+some studies estimate the coronavirus’s at greater than 5 days.,False,refute
+some studies estimate the coronavirus’s at greater than 5 days.,False,refute
+"some studies estimate the coronavirus’s serial interval at 4 to 4.5 days.
+
+
+
+
+
+
+
+
+
+",True,support
+"some studies estimate the coronavirus’s serial interval at 4 to 4.5 days.
+
+
+
+
+
+
+
+
+
+",True,support
+"some studies estimate the coronavirus’s serial interval at 4 to 4.5 days.
+
+
+
+
+
+
+
+
+
+",True,support
+one study based on a review of 110 cases in japan found that the odds of transmission were much lower in closed environments — everything from fitness studios to tents — than in open-air environments.,False,refute
+one study based on a review of 110 cases in japan found that the odds of transmission were 18.7 times higher in closed environments — everything from fitness studios to tents — than in open-air environments.,True,support
+a year after a patient's first infection of covid-19 there is no longer the protection acquired from the immune response.,False,refute
+even a year later there exists protection acquired with the immune response to a patient's first infection of covid-19.,True,support
+measurements of antibodies in the blood of people who have survived sars infections suggest that defenses against infection do not persist.,False,refute
+measurements of antibodies in the blood of people who have survived sars infections suggest that these defenses persist for up to two years.,True,support
+it included masks of different brands and found that the material of the mask was no longer effective after 10 rounds of vaporized hydrogen peroxide decontamination.,False,refute
+it included masks of different brands and found that the material of the mask was still effective after 10 rounds of vaporized hydrogen peroxide decontamination.,True,support
+treatment of covid-19 with hydroxychloroquine alone was associated with a decreased risk of death.,False,refute
+"they housed coronavirus-infected and healthy animals in adjoining cages, some of which were separated by buffers made of surgical masks -- all of the healthy hamsters behind the partitions were infected.",False,refute
+"they housed coronavirus-infected and healthy animals in adjoining cages, some of which were separated by buffers made of surgical masks -- many of the healthy hamsters behind the partitions never got infected.",True,support
+"they housed coronavirus-infected and healthy animals in adjoining cages, some of which were separated by buffers made of surgical masks -- many of the healthy hamsters behind the partitions never got infected.",True,support
+antibodies to the viral nucleocapsid decline at the same rate as those of r.b.d.,False,refute
+antibodies to the viral nucleocapsid decline at the same rate as those of r.b.d.,False,refute
+antibodies to the viral nucleocapsid may decline faster than those to r.b.d.,True,support
+"in china, the early results of a study among medical workers were disappointing, concluding that interferon nasal drops “were ineffective at preventing covid-19 in medical staff.”",False,refute
+"in china, the early results of a study among medical workers also showed promise, concluding that interferon nasal drops “may effectively prevent covid-19 in medical staff.”",True,support
+"early data from the centers for disease control and prevention indicates in the u.s., the risk of dying from covid-19 is equally balanced across all age groups.",False,refute
+even china’s extraordinary quarantine of wuhan merely delayed the virus from reaching other parts of the mainland by one days.,False,refute
+even china’s extraordinary quarantine of wuhan merely delayed the virus from reaching other parts of the mainland by three to five days.,True,support
+"meanwhile, documentation of indoor transmission of covid-19 is widespread: at choir practices, exercise classes, religious services, birthday parties, and funerals, and in nursing homes, conventions, offices, restaurants, nightclubs, meatpacking plants, and prisons.",True,support
+"meanwhile, documentation of indoor transmission of covid-19 is widespread: at choir practices, exercise classes, religious services, birthday parties, and funerals, and in nursing homes, conventions, offices, restaurants, nightclubs, meatpacking plants, and prisons.",True,support
+measures have not been effective in preventing the spread of covid-19 nor the transmission of influenza.,False,refute
+"not only have measures been effective in preventing the spread of covid-19 but the transmission of influenza has also “declined substantially” as a result, the researchers found.",True,support
+estimates from different groups for the r0 of the 2019-ncov virus hover between 3 and 4.,False,refute
+"in recent weeks, multiple vaccine groups have released disappointing data that show their candidates fail inducing antibodies that neutralize the coronavirus (sars-cov-2) in lab tests.",False,refute
+"in recent weeks, multiple vaccine groups have released promising data that show their candidates can induce antibodies that neutralize the coronavirus (sars-cov-2) in lab tests.",True,support
+"however, ""we do have evidence, from testing and modeling studies, that suggest people who are presymptomatic can definitely transmit sars-cov-2,"" says smith, the epidemiologist, most likely fourteen days before they start showing symptoms, according to the who.",False,refute
+"however, ""we do have evidence, from testing and modeling studies, that suggest people who are presymptomatic can definitely transmit sars-cov-2,"" says smith, the epidemiologist, most likely fourteen days before they start showing symptoms, according to the who.",False,refute
+"however, ""we do have evidence, from testing and modeling studies, that suggest people who are presymptomatic can definitely transmit sars-cov-2,"" says smith, the epidemiologist, most likely in the one to three days before they start showing symptoms, according to the who.",True,support
+"however, ""we do have evidence, from testing and modeling studies, that suggest people who are presymptomatic can definitely transmit sars-cov-2,"" says smith, the epidemiologist, most likely in the one to three days before they start showing symptoms, according to the who.",True,support
+"in one of the places where there has been extensive testing, the nursing home in washington state, no individual who tested positive had no symptoms when they got tested.",False,refute
+"in one of the places where there has been extensive testing, the nursing home in washington state, no individual who tested positive had no symptoms when they got tested.",False,refute
+"in one of the places where there has been extensive testing, the nursing home in washington state, 56% of those who tested positive had no symptoms when they got tested.",True,support
+no similarities were found between coronavirus samples taken from horseshoe bats and 2019-ncov.,False,refute
+surgical masks were not effective in blocking contagious covid-19 droplets and aerosols.,False,refute
+surgical masks blocked almost all the contagious covid-19 droplets and aerosols.,True,support
+"the study found that in households where everyone was wearing a face mask indoors as a precaution before they knew anyone who lived there was sick, the risk of transmission was not reduced.",False,refute
+"five of the singers were hospitalized with covid-19, and six died.",False,refute
+"on may 15, the cdc published a report on a 3-hour indoor choir practice in skagit county, wash., that took place in early march and was attended by 100 people.",False,refute
+"on may 15, the cdc published a report on a 3-hour indoor choir practice in skagit county, wash., that took place in early march and was attended by 100 people.",False,refute
+"on may 15, the cdc published a report on a 2 1/2-hour indoor choir practice in skagit county, wash., that took place in early march and was attended by 61 people.",True,support
+"on may 15, the cdc published a report on a 2 1/2-hour indoor choir practice in skagit county, wash., that took place in early march and was attended by 61 people.",True,support
+"afterward, 85% of those singers apparently contracted the coronavirus, with 32 confirmed and 20 probable covid-19 cases.",True,support
+"an analysis in the cdc's morbidity and mortality weekly report, published last week, found that people with chronic conditions were just as likely to die from the coronavirus compared with those who didn't have underlying conditions.",False,refute
+"an analysis in the cdc's morbidity and mortality weekly report, published last week, found that people with chronic conditions were 12 times more likely to die from the coronavirus compared with those who didn't have underlying conditions.",True,support
+"now, none of new coronavirus (sars-cov-2) cases in washington state are showing up in those in their 20s and 30s, according to a recent analysis of state data.",False,refute
+"now, nearly half of new coronavirus (sars-cov-2) cases in washington state are showing up in those in their 20s and 30s, according to a recent analysis of state data.",True,support
+no new cases of coronavirus were traced to fitness facilities.,False,refute
+many new cases of coronavirus were traced back to fitness facilities.,True,support
+no genetic traces of the coronavirus was detected in the wastewater by a study in the netherlands.,False,refute
+no genetic traces of the coronavirus was detected in the wastewater by a study in the netherlands.,False,refute
+researchers have detected genetic traces of the coronavirus in the wastewater in the netherlands.,True,support
+researchers have detected genetic traces of the coronavirus in the wastewater in the netherlands.,True,support
+"in a sample of patients from china, the study estimated that hardly any cases spread from person to person before symptoms appeared.",False,refute
+"in a sample of patients from china, the study estimated 44 percent of cases spread from person to person before symptoms appeared.",True,support
+"a study of air samples in two hospitals in wuhan, china, found that although coronavirus aerosols in isolation wards and ventilated patient rooms was very low, “it was higher in the toilet areas used by the patients.”",True,support
+covid-19 related interventions had no life-saving infection rate impact.,False,refute
+the investigators estimated that dexamethasone had no effect on mortality in ventilated patients suffering from acute respiratory distress syndrome.,False,refute
+the investigators estimated that dexamethasone could reduce mortality among patients suffering from acute respiratory distress syndrome.,True,support
+covid-19 infected ferrets do not exhibit post-infection shedding.,False,refute
+covid-19 infected ferrets shed the virus post-infection.,True,support
+"using disease transmission modeling, a study found that china’s jan. 23 ban on travel in and out of wuhan slowed domestic spread by only three to five days.",True,support
+droplets containing the coronavirus cannot be carried by the air conditioning.,False,refute
+droplets containing the coronavirus cannot be carried by the air conditioning.,False,refute
+droplets containing the coronavirus were shown to be carried by the air conditioning.,True,support
+covid-19 severity equally impacts people of all ages with or without chronic diseases.,False,refute
+covid-19 severely impacts elderly people with underlying chronic diseases.,True,support
+an mrna vaccine candidate bnt162b1 against covid-19 produced little increase in sars-cov-2 neutralizing agents in a phase 1 study.,False,refute
+an mrna vaccine candidate bnt162b1 against covid-19 was found to increase sars-cov-2 neutralizing agents in a phase 1 study.,True,support
+contact tracing was used for covid-19 detection in a cluster of young people who brought the virus home.,True,support
+"a team of researchers at new york university’s langone medical center found that, out of 84 patients treated with the combination of hydroxychloroquine and azithromycin, a negligible fraction experienced qt prolongation suggesting no increased risk of sudden cardiac death.",False,refute
+"a team of researchers at new york university’s langone medical center found that, out of 84 patients treated with the combination of hydroxychloroquine and azithromycin, a negligible fraction experienced qt prolongation suggesting no increased risk of sudden cardiac death.",False,refute
+"a team of researchers at new york university’s langone medical center found that, out of 84 patients treated with the combination of hydroxychloroquine and azithromycin, 11 percent had qt prolongation beyond 500 milliseconds — the proven danger zone for sudden cardiac death.",True,support
+"the coronavirus began spreading in the united states as early as the second half of january, eluding detection by public health surveillance systems that help monitor for early signs of novel contagions.",True,support
+a study by the university of southampton — and co-written by a researcher at the wuhan centers for disease control — estimated that a small fraction of all coronavirus cases in china could have been avoided if containment measures had begun three weeks earlier.,False,refute
+a study by the university of southampton — and co-written by a researcher at the wuhan centers for disease control — estimated that 95 percent of all coronavirus cases in china could have been avoided if containment measures had begun three weeks earlier.,True,support
+a study by the university of southampton — and co-written by a researcher at the wuhan centers for disease control — estimated that 95 percent of all coronavirus cases in china could have been avoided if containment measures had begun three weeks earlier.,True,support
+observational studies suggest that eye protection reduces transmission of covid-19.,True,support
+nursing facilities have accounted for a significant number of covid-19 deaths because they can turn into breeding grounds for illnesses.,True,support
+"in late march, a research team at the university of oxford, writing in the journal science, said the spread of sars-cov-2 is “too fast to be contained by manual contact tracing,” and a bluetooth-like technology would be needed to complement it.",True,support
+"in late march, a research team at the university of oxford, writing in the journal science, said the spread of sars-cov-2 is “too fast to be contained by manual contact tracing,” and a bluetooth-like technology would be needed to complement it.",True,support
+a monoclonal antibody could not neutralize the coronavirus in laboratory tests.,False,refute
+a monoclonal antibody was capable of neutralizing the coronavirus in laboratory tests.,True,support
+the mutation in the viral spike protein does not make the virus transmit more efficiently.,False,refute
+the mutation in the viral spike protein can make the virus transmit more efficiently.,True,support
+the mutation in the viral spike protein can make the virus transmit more efficiently.,True,support
+the majority of people had naturally occurring antibodies to the novel coronavirus as of this spring.,False,refute
+only a small proportion of people in many parts of the united states had antibodies to the novel coronavirus as of this spring.,True,support
+through contact tracing initiatives it was found that no students linked to a spring break trip to mexico were sickened by the novel coronavirus.,False,refute
+through contact tracing initiatives it was found that the novel coronavirus sickened at least 60 students linked to a spring break trip to mexico.,True,support
+through contact tracing initiatives it was found that the novel coronavirus sickened at least 60 students linked to a spring break trip to mexico.,True,support
+"researchers reported results from antibody tests on 3,300 people in california’s santa clara county in april, 2020: between 8.1 percent and 12.3 percent had been infected, they claimed.",False,refute
+"researchers reported results from antibody tests on 3,300 people in california’s santa clara county in april, 2020: between 1.5 percent and 2.8 percent had been infected, they claimed.",True,support
+"researchers reported results from antibody tests on 3,300 people in california’s santa clara county in april, 2020: between 1.5 percent and 2.8 percent had been infected, they claimed.",True,support
+the lowest rate of severe cases and deaths due to covid-19 remains the elderly.,False,refute
+the lowest rate of severe cases and deaths due to covid-19 remains the elderly.,False,refute
+the lowest rate of severe cases and deaths due to covid-19 remains the elderly.,False,refute
+the highest rate of severe cases and deaths due to covid-19 remains the elderly.,True,support
+the highest rate of severe cases and deaths due to covid-19 remains the elderly.,True,support
+stealth transmissions play only a minor role in covid-19's spread.,False,refute
+stealth transmissions play a major role in covid-19's spread.,True,support
+"cats are not able to be infected with the novel virus, the researchers found.",False,refute
+"cats can be infected with the novel virus, the researchers found.",True,support
+"coronavirus outbreaks of three or more cases were largely confined to enclosed spaces, such as home and transportation.",True,support
+most patients who recover from the novel coronavirus do not make antibodies.,False,refute
+no known natural compounds have been shown to help against sars.,False,refute
+no known natural compounds have been shown to help against sars.,False,refute
+there are a plethora of natural compounds that have been shown to help against sars.,True,support
+there are a plethora of natural compounds that have been shown to help against sars.,True,support
+"the research, also published in the lancet, notes that lifting the social distancing measures in place in wuhan would have no effect on the timing of the ""second wave"" of the coronavirus.",False,refute
+"the research, also published in the lancet, notes that lifting the social distancing measures in place in wuhan would have no effect on the timing of the ""second wave"" of the coronavirus.",False,refute
+"the research, also published in the lancet, notes that keeping the social distancing measures in place in wuhan until early april could delay the ""second wave"" of the coronavirus.",True,support
+"the research, also published in the lancet, notes that keeping the social distancing measures in place in wuhan until early april could delay the ""second wave"" of the coronavirus.",True,support
+"people with coronary heart disease, are not at an increased risk for severe covid-19, preliminary research has shown.",False,refute
+"people with coronary heart disease, face a higher risk for severe covid-19, preliminary research has shown.",True,support
+"last month, work by harvard specialists found that covid-19 patients in areas with historically heavy air pollution are less likely to die than patients elsewhere.",False,refute
+"last month, work by harvard specialists found that covid-19 patients in areas with historically heavy air pollution are less likely to die than patients elsewhere.",False,refute
+"last month, work by harvard specialists found that covid-19 patients in areas with historically heavy air pollution are less likely to die than patients elsewhere.",False,refute
+"last month, work by harvard specialists found that covid-19 patients in areas with historically heavy air pollution are more likely to die than patients elsewhere.",True,support
+"last month, work by harvard specialists found that covid-19 patients in areas with historically heavy air pollution are more likely to die than patients elsewhere.",True,support
+all hospitalized covid-19 patients had a fever.,False,refute
+only a third of hospitalized covid-19 patients had a fever.,True,support
+there is no correlation between smoking and illness progression of covid-19.,False,refute
+these studies indicate that smoking could also make people more likely to develop severe illness from covid-19.,True,support
+coronavirus infections would decrease if wearing masks were mandated.,True,support
+seriously ill covid-19 patients who were treated with hydroxychloroquine and chloroquine were less likely to die.,False,refute
+the coronavirus vaccine was unable to generate an immune response against the novel coronavirus.,False,refute
+the coronavirus vaccine generated an immune response against the novel coronavirus.,True,support
+no traces of coronavirus can be found in the semen of men.,False,refute
+scientists have found traces of the coronavirus in men's semen.,True,support
+the study estimated that 20.49% to 40.16% of people in santa clara country had been infected with covid-19 by april 1.,False,refute
+the study estimated that 20.49% to 40.16% of people in santa clara country had been infected with covid-19 by april 1.,False,refute
+the study estimated that 2.49% to 4.16% of people in santa clara country had been infected with covid-19 by april 1.,True,support
+"""we found that there are many, many unidentified cases of people having covid infection that were never identified with it with a virus test,"" said dr. jay bhattacharya, a professor of medicine at stanford university and one of the paper's authors.",True,support
+"a new study suggests that as many as 8.7 million americans came down with coronavirus in march, the majority of whom were diagnosed.",False,refute
+"a new study suggests that as many as 8.7 million americans came down with coronavirus in march, the majority of whom were diagnosed.",False,refute
+"a new study suggests that as many as 8.7 million americans came down with coronavirus in march, but more than 80% of them were never diagnosed.",True,support
+the study concluded that the transmission of the coronavirus was unrelated to the air-conditioned ventilation at the restaurant.,False,refute
+"the study concluded that the transmission of the coronavirus was prompted by air-conditioned ventilation at the restaurant.
+
+
+
+
+",True,support
+the majority of confirmed cases of coronavirus were traced back to documented infections.,False,refute
+the majority of people with confirmed coronavirus were likely infected by people who didn't know they had it.,True,support
+wearing a mask at home was largely effective at preventing the spread of the coronavirus.,True,support
+"children make up a sizeable proportion of american coronavirus cases so far and are as likely to become seriously ill as american adults, according to a preliminary report on the first wave of coronavirus cases in the united states.",False,refute
+"children make up a sizeable proportion of american coronavirus cases so far and are as likely to become seriously ill as american adults, according to a preliminary report on the first wave of coronavirus cases in the united states.",False,refute
+"children make up a very small proportion of american coronavirus cases so far and are significantly less likely to become seriously ill than american adults, according to a preliminary report on the first wave of coronavirus cases in the united states.",True,support
+covid-19 has no adverse effects on pregnant women.,False,refute
+covid-19 has no adverse effects on pregnant women.,False,refute
+covid-19 is dangerous for pregnant women.,True,support
+covid-19 is dangerous for pregnant women.,True,support
+covid-19 is dangerous for pregnant women.,True,support
+it’s the second study in a week to report disappointing results in monkeys for a sars-cov-2 vaccine candidate.,False,refute
+it’s the second study in a week to report promising results in monkeys for a sars-cov-2 vaccine candidate.,True,support
+"the researchers found auto-antibodies in individuals with severe, mild, and asymptomatic covid-19 illness.",False,refute
+"the researchers found auto-antibodies in some of the people with severe covid-19, but in none with mild or asymptomatic illness.",True,support
+"in a study of nearly 20,000 people posted to the online server medrxiv on july 17, none with mild-to-moderate covid-19 made plentiful antibodies.",False,refute
+"in a study of nearly 20,000 people posted to the online server medrxiv on july 17, the vast majority with mild-to-moderate covid-19 made plentiful antibodies.",True,support
+cansino reported that their phase 2 trials demonstrated that their adenovirus vectored coronavirus vaccine produced no detectable immune response.,False,refute
+"cansino reported that their phase 2 trials demonstrated that their adenovirus vectored coronavirus vaccine produced a strong immune response.
+
+
+
+
+",True,support
+"cansino reported that their phase 2 trials demonstrated that their adenovirus vectored coronavirus vaccine produced a strong immune response.
+
+
+
+
+",True,support
+"in september, vaxart reported that mice given the oral vaccine showed no immune response against the coronavirus sars-cov-2.",False,refute
+"in september, vaxart reported that mice given the oral vaccine produced antibodies against the coronavirus sars-cov-2.",True,support
+"in september, vaxart reported that mice given the oral vaccine produced antibodies against the coronavirus sars-cov-2.",True,support
+"in may, they discovered covid-19 has no relationship to an entirely new disease, called multisystem inflammatory syndrome in children, or mis-c for short.",False,refute
+"in may, they discovered covid-19 can lead to an entirely new disease, called multisystem inflammatory syndrome in children, or mis-c for short.",True,support
+"in june, a study published in nature found that people under age 20 were approximately twice as susceptible to contracting the coronavirus as those older than 20.",False,refute
+"in june, a study published in nature found that people under age 20 were approximately twice as susceptible to contracting the coronavirus as those older than 20.",False,refute
+"in june, a study published in nature found that people under age 20 were approximately half as susceptible to contracting the coronavirus as those older than 20.",True,support
+"in june, a study published in nature found that people under age 20 were approximately half as susceptible to contracting the coronavirus as those older than 20.",True,support
+a review of cases across hundreds of cities in china documented many cases of outdoor transmission.,False,refute
+a review of cases across hundreds of cities in china documented only a single instance of outdoor transmission.,True,support
+"a relatively insensitive test, rolled out twice a week, vastly underperformed a more accurate test, administered once every two weeks, in curbing the spread of disease.",False,refute
+"a relatively insensitive test, rolled out twice a week, vastly outperformed a more accurate test, administered once every two weeks, in curbing the spread of disease.",True,support
+a team of virologists and aerosol scientists was unable to find any evidence of infectious coronavirus in the air.,False,refute
+a team of virologists and aerosol scientists was unable to find any evidence of infectious coronavirus in the air.,False,refute
+a team of virologists and aerosol scientists has produced exactly that: confirmation of infectious coronavirus in the air.,True,support
+a team of virologists and aerosol scientists has produced exactly that: confirmation of infectious coronavirus in the air.,True,support
+"the findings, published in jama pediatrics, suggest that the vast majority of infected children show symptoms before spreading sars-cov-2 to others.",False,refute
+"the findings, published in jama pediatrics, suggest that the vast majority of infected children show symptoms before spreading sars-cov-2 to others.",False,refute
+"the findings, published in jama pediatrics, suggest that the vast majority of infected children show symptoms before spreading sars-cov-2 to others.",False,refute
+"the findings, published in jama pediatrics, suggest that the vast majority of infected children appear healthy but still may spread sars-cov-2 to others.",True,support
+"the findings, published in jama pediatrics, suggest that the vast majority of infected children appear healthy but still may spread sars-cov-2 to others.",True,support
+convalescent plasma did not significantly improve covid-19 patients’ recovery time.,True,support
+superspreading events have not been documented at call centers.,False,refute
+superspreading events can happen at call centers.,True,support
+astrazeneca’s vaccine candidate yielded adverse results for safety data in people.,False,refute
+astrazeneca’s vaccine candidate yielded promising safety data in people.,True,support
+"disease-fighting antibodies, as well as immune cells called b cells and t cells that are capable of recognizing the virus, do not persist after the infections have resolved.",False,refute
+"disease-fighting antibodies, as well as immune cells called b cells and t cells that are capable of recognizing the virus, do not persist after the infections have resolved.",False,refute
+"disease-fighting antibodies, as well as immune cells called b cells and t cells that are capable of recognizing the virus, appear to persist months after infections have resolved.",True,support
+"disease-fighting antibodies, as well as immune cells, called b cells and t cells that are capable of recognizing the virus, do not persist in the months after covid-19 infections have resolved.",False,refute
+small studies have shown that one bout of the coronavirus does not protect rhesus macaques from contracting it again.,False,refute
+small studies have shown that one bout of the coronavirus seems to protect rhesus macaques from contracting it again.,True,support
+the infectiousness of sars-cov-2 is steady over the course of the covid-19 symptoms.,False,refute
+the infectiousness of sars-cov-2 appears to peak within the first few days of the onset of covid-19 symptoms and then decrease with time.,True,support
+"and after the cough, as larger particles settled to the ground and aerosols dispersed around the room, the face shield reduced aerosol inhalation by only 23 percent.",True,support
+"models suggest that about half of coronavirus transmission events can be traced back to individuals still in the so-called pre-symptomatic stage, before they have started feeling ill — if they ever feel sick at all.",True,support
+several studies have found that smoking can reduce a person’s risk of severe covid-19 symptoms.,False,refute
+several studies have found that smoking can more than double a person’s risk of severe covid-19 symptoms.,True,support
+smoking has no impact on a person’s risk of severe covid-19 symptoms.,False,refute
+smoking can increase a person’s risk of severe covid-19 symptoms.,True,support
+a team of researchers recently reported that young adults who vape are equally likely to receive a coronavirus diagnosis as those who do not vape.,False,refute
+a team of researchers recently reported that young adults who vape are five times more likely to receive a coronavirus diagnosis than those who do not vape.,True,support
+"volunteers for vaccine tests in russia produced a strong immune response to the coronavirus, scientists there said in their first report on their controversial covid-19 vaccine.",True,support
+"volunteers for vaccine tests in russia produced a strong immune response to the coronavirus, scientists there said in their first report on their controversial covid-19 vaccine.",True,support
+"volunteers for vaccine tests in russia produced a strong immune response to the coronavirus, scientists there said in their first report on their controversial covid-19 vaccine.",True,support
+"volunteers for vaccine tests in russia produced a relatively modest amount of antibodies to the coronavirus, scientists there said in their first report on their controversial covid-19 vaccine.",False,refute
+"volunteers for vaccine tests in russia produced a relatively modest amount of antibodies to the coronavirus, scientists there said in their first report on their controversial covid-19 vaccine.",False,refute
+"researchers also found that people with type o blood were just as likely to get covid-19 than people with other blood types.
+
+
+
+
+",False,refute
+"researchers also found that people with type o blood were just as likely to get covid-19 than people with other blood types.
+
+
+
+
+",False,refute
+researchers also found that people with type o blood were slightly less likely to get covid-19 than people with other blood types.,True,support
+"an early-stage trial of a coronavirus (covid-19) vaccine, published in the lancet, was conducted by researchers at several laboratories and included 1008 participants.",False,refute
+"an early-stage trial of a coronavirus (covid-19) vaccine, published in the lancet, was conducted by researchers at several laboratories and included 108 participants.",True,support
+"subjects who got the vaccine showed no immune response to the virus sars-cov-2, even 28 days after the inoculation, the researchers found.",False,refute
+"subjects who got the vaccine showed no immune response to the virus sars-cov-2, even 28 days after the inoculation, the researchers found.",False,refute
+"subjects who got the vaccine mounted a moderate immune response to the virus sars-cov-2, which peaked 28 days after the inoculation, the researchers found.",True,support
+"subjects who got the vaccine mounted a moderate immune response to the virus sars-cov-2, which peaked 28 days after the inoculation, the researchers found.",True,support
+airline officials point to studies by the world health organization showing that the impact of travel bans on curbing the spread of sars-cov-2 is very effective.,False,refute
+airline officials point to studies by the world health organization showing that the impact of travel bans on curbing the spread of sars-cov-2 is very effective.,False,refute
+airline officials point to studies by the world health organization showing that the impact of travel bans on curbing the spread of sars-cov-2 is limited.,True,support
+"
+black, hispanic, and white americans are equally likely to be affected by the covid-19 pandemic.",False,refute
+"black and hispanic americans are more likely to be affected by the covid-19 pandemic, compared with white people.",True,support
+"clover launched a phase 1 trial last june, and in december the company announced that their adjuvant formulated vaccine triggered a weak immune response.",False,refute
+"clover launched a phase 1 trial last june, and in december the company announced that their adjuvant formulated vaccine triggered a weak immune response.",False,refute
+"clover launched a phase 1 trial last june, and in december the company announced that their adjuvant formulated vaccine triggered a weak immune response.",False,refute
+"clover launched a phase 1 trial last june, and in december the company announced that their adjuvant formulated vaccine triggered a high level of antibodies.",True,support
+"clover launched a phase 1 trial last june, and in december the company announced that their adjuvant formulated vaccine triggered a high level of antibodies.",True,support
+molnupiravir produced no observable benefit when used to treat coronavirus in cells and in animals.,False,refute
+molnupiravir produced promising results against the new coronavirus in early studies in cells and on animals.,True,support
+"in november, a team of european researchers published a study suggesting that baricitinib has no effect on survival in people with severe covid-19.",False,refute
+"in november, a team of european researchers published a study suggesting baricitinib might improve survival in people with severe covid-19.",True,support
+the results clearly demonstrated that colchicine produced no observable reduction in hospitalization for patients with coronavirus.,False,refute
+"early reports from doctors in china and france have said that hydroxychloroquine, sometimes combined with the antibiotic azithromycin, is harmful for patients with covid-19.",False,refute
+"early reports from doctors in china and france have said that hydroxychloroquine, sometimes combined with the antibiotic azithromycin, is harmful for patients with covid-19.",False,refute
+"early reports from doctors in china and france have said that hydroxychloroquine, sometimes combined with the antibiotic azithromycin, is harmful for patients with covid-19.",False,refute
+"early reports from doctors in china and france have said that hydroxychloroquine, sometimes combined with the antibiotic azithromycin, is harmful for patients with covid-19.",False,refute
+"early reports from doctors in china and france have said that hydroxychloroquine, sometimes combined with the antibiotic azithromycin, seemed to help patients with covid-19.",True,support
+low-income neighborhoods were hit the same as more affluent ones by covid-19 although residents were more mobile on average.,False,refute
+low-income neighborhoods were hardest hit by covid-19 where residents were more mobile on average.,True,support
+coronavirus patients in hospitals were more likely to die if they were treated in intensive care units stretched to capacity as those treated during quieter times.,True,support
+and a study of covid-19 patients found that antibody levels in their saliva did not reflect antibody levels in their blood.,False,refute
+and a study of covid-19 patients found that antibody levels in their saliva did not reflect antibody levels in their blood.,False,refute
+and a study of covid-19 patients found that antibody levels in saliva and blood were closely matched.,True,support
+it has been established that the coronavirus can evolve through mutations.,True,support
+his lab on friday published a new report showing that common cold coronaviruses are incapable of evolving to escape immune detection — over a period of many years.,False,refute
+his lab on friday published a new report showing that common cold coronaviruses also evolve to escape immune detection — over a period of many years.,True,support
+this is in line with a centers for disease control report from september that found people who tested positive for the virus were less likely to say they had eaten at a restaurant as people with negative test results.,False,refute
+the coronavirus variant spreads at the same rate as the non-varient coronavirus.,False,refute
+the coronavirus variant spreads at the same rate as the non-varient coronavirus.,False,refute
+the coronavirus variant took over because it indeed spreads faster.,True,support
+by may 2020 millions of people contracted the coronavirus globally.,True,support
+"federal health officials warned that a fast-spreading, far more contagious variant of the coronavirus would still not become the dominant source of infection in the united states even as far out as march 2020.",False,refute
+"federal health officials warned that a fast-spreading, far more contagious variant of the coronavirus would still not become the dominant source of infection in the united states even as far out as march 2020.",False,refute
+"federal health officials warned that a fast-spreading, far more contagious variant of the coronavirus is now projected to become the dominant source of infection in the united states by march 2021.",True,support
+in the months following infection people who have recovered from covid-19 do not exhibit killer immune cells.,False,refute
+lockdown restrictions alone can reduce the risk of covid-19 infection within households.,False,refute
+clofazimine was not always effective in fighting off sars-cov-2 in animals.,False,refute
+monoclonal antibodies are manufactured from synthetic sources.,False,refute
+"monoclonal antibodies are distilled from the blood of patients who have recovered from the virus, or mice that have been genetically altered.",True,support
+few americans have had a familial loss from covid-19.,False,refute
+"early trials of the mobile coronavirus test on volunteers revealed that the test performs poorly compared to rt-pcr, dr. o’connor said.",False,refute
+"early trials of the mobile coronavirus test on volunteers revealed that the test performs poorly compared to rt-pcr, dr. o’connor said.",False,refute
+"early trials of the mobile coronavirus test on volunteers have gone well, dr. o’connor said.",True,support
+"early trials of the mobile coronavirus test on volunteers have gone well, dr. o’connor said.",True,support
+but the new studies — two published tuesday in jama internal medicine and one wednesday in the new england journal of medicine — found that tocilizumab reduced the death rates of covid-19 patients.,False,refute
+but the new studies — two published tuesday in jama internal medicine and one wednesday in the new england journal of medicine — found that tocilizumab did not reduce the death rates of covid-19 patients.,True,support
+a recent study from italy found no correlation between long-term exposure to dirty air and an increase in excess mortality — a measure of deaths above normal — from the coronavirus.,False,refute
+a recent study from italy found a correlation between long-term exposure to dirty air and an increase in excess mortality — a measure of deaths above normal — from the coronavirus.,True,support
+scientists have found that pcr methods are ineffective at detecting virus rna in respiratory specimens from covid-19 patients.,False,refute
+scientists have found that pcr methods are ineffective at detecting virus rna in respiratory specimens from covid-19 patients.,False,refute
+scientists have found that a pcr method can detect virus rna in respiratory specimens from covid-19 patients.,True,support
+covid-19 infected individuals were more likely to have eaten at a restaurant in the two weeks preceding their illness than control individuals.,True,support
+"infected individuals who don’t feel ill do not carry the same levels of coronavirus in their nose, throat and lungs as those with symptoms.",False,refute
+"infected individuals who don’t feel ill may carry just as much coronavirus in their nose, throat and lungs as those with symptoms.",True,support
+"in one report published last month, researchers found that people with obesity who caught the coronavirus were were just as likely to end up in the hospital.",False,refute
+people with obesity who caught the coronavirus were as likely to end up in the hospital as non-obese patients.,False,refute
+people with obesity who caught the coronavirus were more than twice as likely to end up in the hospital.,True,support
+people with obesity who caught the coronavirus were more than twice as likely to end up in the hospital.,True,support
+the study found that though hospital capacity was strained by increased caseloads it had no effect on coronavirus patient mortality.,False,refute
+"the study found that as hospital caseloads ease and medical workers came under less pressure, more coronavirus patients survive.",True,support
+pfizer pointed to a recent study that found the coronavirus greatly increased the risk of problems during pregnancy.,False,refute
+pfizer pointed to a recent study that found the coronavirus did not seem to raise the risk for pregnancy-related problems.,True,support
+"in 2020, the coronavirus did not cause more fatalities than in previous years.",False,refute
+hundreds of thousands of fatalities would not have occurred if not for the coronavirus.,True,support
+"up to one in a hundred people who fall ill from covid-19 report at least one neurological deficit, whether in taste, smell, balance or alertness.",False,refute
+"up to a third of people who fall ill from covid-19 report at least one neurological deficit, whether in taste, smell, balance or alertness.",True,support
+preliminary figures suggest that those who participated in a government subsidized domestic tourism program in japan experienced a higher incidence of symptoms associated with covid-19.,True,support
+new-onsets of psychosis were not found in patients hospitalized with covid-19.,False,refute
+new-onsets of psychosis were not found in patients hospitalized with covid-19.,False,refute
+there are no new-onset psychosis-related symptoms developed as a result of covid-19.,False,refute
+some patients hospitalized with covid-19 had new-onset psychosis.,True,support
+lockdown measures alone reduced the risk of coronavirus infection within households.,False,refute
+tocilizumab had no impact on reducing the death rates in severely ill coronavirus patients.,False,refute
+researchers who examined global trends in the early part of the covid-19 pandemic observed a weather correlation.,True,support
+"the risk of death from covid-19 in people under 65 varies drastically  across 45 countries in europe, asia and the americas according to a modeling study published on monday in the journal nature.",False,refute
+"the risk of death from covid-19 in people under 65 varies drastically  across 45 countries in europe, asia and the americas according to a modeling study published on monday in the journal nature.",False,refute
+"the risk of death from covid-19 in people under 65 is consistent across 45 countries in europe, asia and the americas according to a modeling study published on monday in the journal nature.",True,support
+"the risk of death from covid-19 in people under 65 is consistent across 45 countries in europe, asia and the americas according to a modeling study published on monday in the journal nature.",True,support
+"rather than leave these aerosols sitting, the equipment immediately transfers them into a liquid rich with salts, sugar and protein, which destroys the pathogen.",False,refute
+"rather than leave these aerosols sitting, the equipment immediately transfers them into a liquid rich with salts, sugar and protein, which preserves the pathogen.",True,support
+researchers have found that people whose bodies were teeming with the coronavirus did not become any more seriously ill when compared with those who carried much less virus.,False,refute
+researchers have found that people whose bodies were teeming with the coronavirus did not become any more seriously ill when compared with those who carried much less virus.,False,refute
+"researchers have found that people whose bodies were teeming with the coronavirus more often became seriously ill and were more likely to die, compared with those who carried much less virus and were more likely to emerge relatively unscathed.",True,support
+"researchers have found that people whose bodies were teeming with the coronavirus more often became seriously ill and were more likely to die, compared with those who carried much less virus and were more likely to emerge relatively unscathed.",True,support
+dr. iwasaki’s team showed in december that severely ill coronavirus patients had negligible increases in autoantibody activities.,False,refute
+"dr. iwasaki’s team showed in december that severely ill coronavirus patients had dramatic increases in a wide array of autoantibodies that target parts of the immune system, brain cells, connective tissue and clotting factors.",True,support
+"and a study of more than 130,000 people found that autoimmune conditions like type 1 diabetes, psoriasis and rheumatoid arthritis increase the risk of respiratory complications and death from covid-19.",True,support
+"and a study of more than 130,000 people found that autoimmune conditions like type 1 diabetes, psoriasis and rheumatoid arthritis increase the risk of respiratory complications and death from covid-19.",True,support
+changes in coronavirus levels in wastewater had no correlation with positive test results.,False,refute
+changes in coronavirus levels in wastewater preceded rises and falls in positive test results by a few days.,True,support
+after six months covid-19 patients showed no symptoms.,False,refute
+"in blood samples from the first wave of the covid-19 pandemic in the us, the majority of samples contained antibodies to the virus.",False,refute
+"100 percent of adults hospitalized from march through may with covid-19 were health care workers, according to the researchers, with more than 50 percent either nurses or nursing assistants.",False,refute
+"100 percent of adults hospitalized from march through may with covid-19 were health care workers, according to the researchers, with more than 50 percent either nurses or nursing assistants.",False,refute
+"about 6 percent of adults hospitalized from march through may with covid-19 were health care workers, according to the researchers, with more than a third either nurses or nursing assistants.",True,support
+"about 6 percent of adults hospitalized from march through may with covid-19 were health care workers, according to the researchers, with more than a third either nurses or nursing assistants.",True,support
+cats do not get sick from the novel coronavirus because they cannot be infected.,False,refute
+cats can be infected by the novel coronavirus but are unlikely to get sick.,True,support
+nurses in particular have been at significant risk of contracting covid-19.,True,support
+"confusion, delirium and other types of altered mental function, called encephalopathy, have occurred during hospitalization for covid-19 respiratory problems, and a study found that such patients needed longer hospitalizations, had higher mortality rates and often couldn’t manage daily activities right after hospitalization.",True,support
+dutch scientists reported in a paper that has not yet been peer-reviewed that the coronavirus was jumping between mink and humans.,True,support
+the northern region of brazil has had the fewest cases of covid-19 relative to the rest of the country.,False,refute
+the northern region of brazil has had the fewest cases of covid-19 relative to the rest of the country.,False,refute
+the northern region of brazil has been hit particularly hard by covid-19 relative to the rest of the country.,True,support
+the northern region of brazil has been hit particularly hard by covid-19 relative to the rest of the country.,True,support
+a small fraction of people with covid-19 infections never develop symptoms like fevers.,False,refute
+an estimated 40 percent of people with covid-19 infections never develop symptoms like fevers.,True,support
+"in a july 21 report in jama internal medicine, the c.d.c.’s response team for covid-19 estimated that the majority of infections are being identified in places as diverse as florida, new york city and utah.",False,refute
+"a recent study showed that depression rates spiked three times higher during the pandemic, according to the centers for disease control and prevention.",True,support
+"a recent study showed that depression rates stayed constant during the pandemic, and according to the centers for disease control and prevention, 5 percent of american adults reported problems with anxiety, depression or substance abuse.",False,refute
+"a recent study showed that depression rates spiked three times higher during the pandemic, and according to the centers for disease control and prevention, 40 percent of american adults reported problems with anxiety, depression or substance abuse.",True,support
+heart muscle cell damage is not an associated condition among hospitalized covid-19 patients.,False,refute
+experts demonstrated that seasonal effects would completely prevent the virus from spreading.,False,refute
+most covid-19 patients did not show antibody production during the months after recovery.,False,refute
+most covid-19 patients produce antibodies that endure for months.,True,support
+"pcr tests are not reliable in their detection, in just a few hours, of as few as 100 copies of viral rna in a milliliter of spit or snot.",False,refute
+"pcr tests are not reliable in their detection, in just a few hours, of as few as 100 copies of viral rna in a milliliter of spit or snot.",False,refute
+"pcr tests can reliably detect, in just a few hours, as few as 100 copies of viral rna in a milliliter of spit or snot.",True,support
+"pcr tests can reliably detect, in just a few hours, as few as 100 copies of viral rna in a milliliter of spit or snot.",True,support
+"in several studies, most people who are infected develop reasonable levels of coronavirus-specific t-cells and antibodies.",True,support
+covid-19 patients maintain levels of their coronavirus-neutralizing antibodies even after a few months.,False,refute
+many covid-19 patients lose substantial levels of their coronavirus-neutralizing antibodies after a few months.,True,support
+"indeed, many people who recover from covid-19 have high levels of neutralizing antibodies overall, all of which neutralize very well.",False,refute
+"indeed, many people who recover from covid-19 have low levels of neutralizing antibodies overall, but some of them neutralize very well.",True,support
+there would be no impact on the number of covid‑19 deaths in the u.s. if social-distancing measures had been enacted just a few weeks earlier.,False,refute
+there would be no impact on the number of covid‑19 deaths in the u.s. if social-distancing measures had been enacted just a few weeks earlier.,False,refute
+the u.s. could have averted many covid‑19 deaths if social-distancing measures had been enacted just a few weeks earlier.,True,support
+the u.s. could have averted many covid‑19 deaths if social-distancing measures had been enacted just a few weeks earlier.,True,support
+the majority of patients admitted with the coronavirus had a fever.,False,refute
+a minority of patients admitted with the coronavirus had a fever.,True,support
+one study found that patients who received plasma within three days of a covid-19 diagnosis had outcomes similar to those who received it later.,False,refute
+delayed social distancing measures in the united states had no impact on preventing covid-19 deaths.,False,refute
+delayed social distancing measures in the united states had no impact on preventing covid-19 deaths.,False,refute
+delayed social distancing measures in the united states lead to unnecessary covid-19 deaths of tens of thousands of people.,True,support
+"other studies have found that antibodies in our blood are stable over time, so people who were infected last year may now have no change in immunity.",False,refute
+"other studies have found that antibodies in our blood decrease over time, so people who were infected last year may now be experiencing declines in immunity.",True,support
+"despite the stresses of 2020, the isolation of physical distancing, and the closure of social spaces, rates of depression and anxiety in the us have remained flat.
+
+
+
+
+
+
+
+
+
+",False,refute
+"between the stresses of 2020, the isolation of physical distancing, and the closure of social spaces, rates of depression and anxiety in the us have spiked.",True,support
+"between the stresses of 2020, the isolation of physical distancing, and the closure of social spaces, rates of depression and anxiety in the us have spiked.",True,support
+"in a survey of individuals who had covid-19 and illness lasting over 28 days (long covid), most of those surveyed were working the same amount or more than they had prior to their illness.",False,refute
+"in a survey of individuals who had covid-19 and illness lasting over 28 days (long covid), most of those surveyed were working the same amount or more than they had prior to their illness.",False,refute
+"in a survey of individuals who had covid-19 and illness lasting over 28 days (long covid), most of those surveyed were working the same amount or more than they had prior to their illness.",False,refute
+"in a survey of individuals who had covid-19 and illness lasting over 28 days (long covid), 67 percent of those surveyed were either not working or working reduced hours due to their health conditions.",True,support
+"in a survey of individuals who had covid-19 and illness lasting over 28 days (long covid), 67 percent of those surveyed were either not working or working reduced hours due to their health conditions.",True,support
+higher rates of covid-19 morbidity are not racially dependent.,False,refute
+black and latino communities experienced higher rates of covid-19 morbidity.,True,support
+"people release less aerosols when talking than when breathing silently, marr says, and even less when talking loudly.",False,refute
+"people release about 10 times more aerosols when talking than when breathing silently, marr says, and even more when talking loudly.",True,support
+the odds of catching the coronavirus are only 2 times higher indoors than outdoors.,False,refute
+kids under age 18 have made up roughly the same amount of cases as their percentage of the general population.,False,refute
+kids under age 18 have made up roughly the same amount of cases as their percentage of the general population.,False,refute
+"the results found that while kids under age 18 make up 22% of the u.s. population, they've accounted for fewer than 2% of reported cases.",True,support
+disproportionately black counties were the location of the majority of covid-19 deaths.,True,support
+"months of evidence suggests that covid-19 spreads only through physical contact, says jose-luis jiminez, an atmospheric chemistry professor at university of colorado boulder.",False,refute
+"months of evidence suggests that covid-19 spreads through the air, says jose-luis jiminez, an atmospheric chemistry professor at university of colorado boulder.",True,support
+"the more antibodies there were in a particular batch of convalescent plasma, the more effective the plasma was in preventing covid-19 related death.",True,support
+the strategy of simply waiting for symptoms to emerge was shown to be sufficient to contain an outbreak.,False,refute
+germicidal uv is not effective against airborne microbes that transmit sars-cov.,False,refute
+germicidal uv can effectively inactivate airborne microbes that transmit sars-cov.,True,support
+germicidal uv can effectively inactivate airborne microbes that transmit sars-cov.,True,support
+"the same day, however, a study by chinese researchers published in the lancet found remdesivir outperformed a placebo when treating seriously ill covid-19 patients on such measures like time to clinical improvement.",False,refute
+"the same day, however, a study by chinese researchers published in the lancet found remdesivir outperformed a placebo when treating seriously ill covid-19 patients on such measures like time to clinical improvement.",False,refute
+"the same day, however, a study by chinese researchers published in the lancet found remdesivir didn't do better than a placebo when treating seriously ill covid-19 patients on such measures like time to clinical improvement.",True,support
+"the same day, however, a study by chinese researchers published in the lancet found remdesivir didn't do better than a placebo when treating seriously ill covid-19 patients on such measures like time to clinical improvement.",True,support
+the majority of people infected with covid-19 exhibit symptoms of illness.,False,refute
+infected mothers are unlikely to pass coronavirus to their newborns when appropriate hygiene precautions are taken.,True,support
+mothers infected with covid-19 are likely to pass the infection to their newborns regardless of health precautions taken.,False,refute
+mothers infected with covid-19 are unlikely to pass the infection to their newborns when appropriate health precautions are taken.,True,support
+there is a viral transmission from mothers with coronavirus to their babies.,False,refute
+no cases of viral transmission were found among babies born to mothers with coronavirus.,True,support
+"the study, which published friday and has not been peer-reviewed, offers hope that antibodies can offer protection against infection.",True,support
+"another study, which has not yet gone through peer review, found living virus up to 50 feet away from covid-19 patients at a hospital in gainesville, fla. marr summed up the challenge of airborne transmission like this: “infected people, whether they have symptoms or not, are releasing virus into the air.",False,refute
+"another study, which has not yet gone through peer review, found living virus up to 16 feet away from covid-19 patients at a hospital in gainesville, fla. marr summed up the challenge of airborne transmission like this: “infected people, whether they have symptoms or not, are releasing virus into the air.",True,support
+"ordinary speech can emit small respiratory droplets that linger in the air for at least eight minutes and potentially much longer, according to a study published wednesday.",True,support
+there has been no connection shown between the coronavirus and kawasaki disease.,False,refute
+the abbott covid-19 test system yielded similar rates of false negatives as other testing systems.,False,refute
+"the universal use of face masks in public can not reduce the spread of the virus, and if paired with lockdowns, cannot prevent future waves of infection.",False,refute
+"the universal use of face masks in public could significantly reduce the spread of the virus, and if paired with lockdowns, prevent future waves of infection.",True,support
+multiple early studies provide evidence of less correlation between temperature and humidity ranges and the geographic regions where this virus has thrived.,False,refute
+the coronavirus began spreading in the united states in late january or early february when the first detections by public health surveillance systems that help monitor for early signs of novel contagions were made.,False,refute
+"the coronavirus began spreading in the united states as early as the second half of january, eluding detection by public health surveillance systems that help monitor for early signs of novel contagions.",True,support
+health experts say that it makes no difference: a study by harvard’s center for communicable disease dynamics found that singapore was just as likely to detect infected people as other nations despite its “very strong epidemiological surveillance and contact-tracing capacity.”,False,refute
+health experts say that it makes no difference: a study by harvard’s center for communicable disease dynamics found that singapore was just as likely to detect infected people as other nations despite its “very strong epidemiological surveillance and contact-tracing capacity.”,False,refute
+there was no partisanship in decision-making to institute mask mandates to protect against the coronavirus.,False,refute
+states led by republican governors have been slower than those led by democrats to require residents to wear masks to protect against the novel coronavirus — if they have adopted such rules at all.,True,support
+states led by republican governors have been slower than those led by democrats to require residents to wear masks to protect against the novel coronavirus — if they have adopted such rules at all.,True,support
+masks wearing does not drastically reduce transmission of the coronavirus.,False,refute
+some scientists estimated only one quarter of the population had been infected in manaus by october of 2020.,False,refute
+some scientists estimated three-fourths of the population had been infected in manaus by october of 2020.,True,support
+some scientists estimated three-fourths of the population had been infected in manaus by october of 2020.,True,support
+some scientists estimated three-fourths of the population had been infected in manaus by october of 2020.,True,support
+in adult covid-19 patients at least one symptom was reported in the majority of cases.,True,support
+one research study published in the journal science estimated that 95 percent of the manaus population already had been infected by the coronavirus sars-cov-2 in october.,False,refute
+one research study published in the journal science estimated that 76 percent of the manaus population already had been infected by the coronavirus sars-cov-2 in october.,True,support
+one modeling study found that housing more prisoners alone in single cells could sharply reduce coronavirus infections.,True,support
+"a study published last week by scientists at imperial college london, and not yet peer-reviewed, estimated that the variant first detected in britain is less transmissible than the more common strain of the virus.",False,refute
+"a study published last week by scientists at imperial college london, and not yet peer-reviewed, estimated that the variant first detected in britain is less transmissible than the more common strain of the virus.",False,refute
+"a study published last week by scientists at imperial college london, and not yet peer-reviewed, estimated that the variant first detected in britain is more transmissible than the more common strain of the virus.",True,support
+wealthy nations had reserved the majority of various vaccine doses even though they make up a fraction of the world's population.,True,support
+underlying conditions have no correlation with covid-19 hospitalizations or deaths.,False,refute
+administering convalescent plasma can help severely ill covid-19 patients.,True,support
+"a growing number of studies have found that mask-wearing can increase the risk of transmitting the coronavirus and the severity of covid-19, the illness it causes — evidence masks do not protect the wearer and others.",False,refute
+meat processing facilities have not experienced the widespread dissemination of covid-19.,False,refute
+meat processing facilities have not experienced the widespread dissemination of covid-19.,False,refute
+there exists collateral damage and widespread dissemination of covid-19 from meat processing facilities.,True,support
+there exists collateral damage and widespread dissemination of covid-19 from meat processing facilities.,True,support
+"global wildlife trade, particularly in exotic or endangered species has no impact on the risk of transmission of the coronavirus.",False,refute
+"the risk of coronavirus is exacerbated by deforestation, hunting, and the global wildlife trade, particularly in exotic or endangered species.",True,support
+a march study found no cruise ship-linked covid-19 cases in the united states.,False,refute
+a march study found that cruise ship-linked cases accounted for covid-19 cases in the united states.,True,support
+adults who tested positive for the coronavirus were just as likely to have eaten at a restaurant in the two weeks before getting sick compared with people who were not infected.,False,refute
+scientists have successfully isolated infectious sars-cov-2 from urine in laboratory settings.,True,support
+"in male patients, the t-cell response to a coronavirus infection was identical to that in females, the scientists found.",False,refute
+"women took the same approach to covid-19, a recent poll found, expressing the same concerns as men that they could return to workplaces safely.",False,refute
+"women took a more cautious approach to covid-19, a recent poll found, expressing more concern than men that they could return to workplaces safely.",True,support
+"a stretch of dna that decreases the risk of severe illness from covid-19 was passed down from neanderthals 60,000 years ago.",False,refute
+more than 90 percent of novel coronavirus cases have serious or fatal symptoms.,False,refute
+covid-19 does not have a humidity or temperature dependent niche.,False,refute
+covid-19 increases the risk for stroke only when patients have a significant number of pre-existing stroke risk factors.,False,refute
+covid-19 can be emitted in air particles while speaking.,True,support
+"preliminary studies have shown that chronic diseases like diabetes, hypertension and obesity make covid-19 more deadly.",True,support
+widespread cases of covid-19 in the united states can be traced to international transmission.,False,refute
+"during the initial outbreak in wuhan, the novel coronavirus spread with an r0 close to 0.",False,refute
+"during the initial outbreak in wuhan, the novel coronavirus spread with an r0 of 5.7.",True,support
+"during the initial outbreak in wuhan, the novel coronavirus spread with an r0 of 5.7.",True,support
+early cases of the coronavirus in the us in january were not the source of its later sustained transmission.,True,support
+early cases of the coronavirus in the us in january were not the source of its later sustained transmission.,True,support
+the sars-cov-2 virus particles found in infected patients' stools were not infectious.,True,support
+adults of all ages can become seriously ill from covid-19.,True,support
+the length of the covid-19 outbreak cannot be shortened.,False,refute
+individuals immune to the covid-19 virus can help to reduce the length of the outbreak.,True,support
+interleukin-6 (il-6) is a cytokine that is appears in covid-19 patients with mild or asymptomatic cases.,False,refute
+"horseshoe bats in yunnan province, china, are the least likely originators of the sars-cov virus that infected humans.",False,refute
+most covid-19 transmission occurs once the infected person begins experiencing symptoms.,False,refute
+most covid-19 transmission occurs once the infected person begins experiencing symptoms.,False,refute
+"patients with mild to moderate covid-19 improve more quickly with a three-drug antiviral cocktail, compared to just two.",True,support
+"older people, men, racial and ethnic minorities, and those with underlying health conditions are among the more vulnerable populations when it comes to covid-19 fatality.",True,support
+"among women of reproductive age with covid-19, nonpregnant women are more likely to be hospitalized in the icu than pregnant women are.",False,refute
+"among women of reproductive age with covid-19, pregnant women are more likely to be hospitalized in the icu than nonpregnant women are.",True,support
+"medical workers who treat covid-19 patients are at higher risk for anxiety, depression and insomnia.",True,support
+"people touch their eyes, nostrils, and lips frequently.",True,support
+putting a few americans at risk outweighs the value of accelerating covid-19 vaccines.,False,refute
+a recent study showed that kids with intellectual and developmental disabilities are slightly more likely to die from covid-19.,True,support
+research from chinese scientists indicates that it is unlikely that the virus causing covid-19 was transmitted directly from pangolins to humans.,True,support
+"by june 2020, most of the population in several us metro areas had been infected with the coronavirus.",False,refute
+"no individuals in new york city tested positive for antibodies of the novel coronavirus between from april 19-28, 2020.",False,refute
+the level of symptomatic covid-19-positive cases is greater than that of asymptomatic covid-19-positive cases.,False,refute
+hydroxychloroquine does not help patients avoid being placed on a ventilator.,True,support
+"as a covid-19 treatment on its own, hydroxychloroquine is associated with decreased overall mortality.",False,refute
+hospitalization with covid-19 occurs most for young adults.,False,refute
+hospitalization with covid-19 occurs significantly more for older adults.,True,support
+a peer-reviewed journal published a paper claiming that the new coronavirus (sars-cov-2) probably originated in pangolins.,True,support
+individuals with mild symptoms of coronavirus can spread sars-cov-2 through the air.,True,support
+surgical masks are effective in preventing infected persons from spreading covid-19 through respiratory droplets.,True,support
+"researchers have investigated the possibility of using drugs to target human proteins that interact with sars-cov-2, instead of just targeting the virus.",True,support
+there are no tests that can detect covid-19.,False,refute
+covid-19 elisa and lateral flow immunoassays tests are not yet reliable enough to use.,True,support
+"within a household, a sick person may only infect 10-20% of the other members of the household.",True,support
+covid-19's secondary attack rate has been found to be between about 10 to 20 percent.,True,support
+asymptomatic carriers of covid-19 have been responsible for more infestions than those with symptoms because asymptomatic cases are more infectious.,False,refute
+covid-19 patients receiving hydroxychloroquine survived at higher rates than other novel coronavirus patients not receiving the regimen.,False,refute
+covid-19 patients receiving hydroxychloroquine died at higher rates than other novel coronavirus patients not receiving the regimen.,True,support
+pregnant women with coronavirus are at an increased risk of severe illness.,False,refute
+there is no evidence linking travel to the spread of covid-19.,False,refute
+transmission of sars-cov-2 occurs only after symptom onset.,False,refute
+surgical face masks significantly reduce droplets expelled by those with respiratory viral illness.,True,support
+large case clusters of covid-19 have resulted from cruises.,True,support
+people appear to shed the highest amounts of the novel coronavirus around the time virus symptoms first appear.,True,support
+there have only been a handful of studies so far on the effects of mask wearing on curbing transmission of covid-19.,False,refute
+the coronavirus is more dangerous for the elderly than the young.,True,support
+most covid-19 patients in a wuhan hospital in january 2020 were men.,True,support
+recent scientific studies find no evidence of localized genetic susceptibility to respiratory failure in covid-19 patients.,False,refute
+religious gatherings have been the source of several outbreaks of covid-19.,True,support
+airflow within a room is a reliable method for inhibiting covid-19 transmission.,False,refute
+airflow that is not fresh can assist the spread of covid-19.,True,support
+"of doctors and nurses in china during the country’s covid-19 peak, none reported experiencing depression.",False,refute
+chloroquine and hydroxychloroquine are not treatment options for covid-19.,False,refute
+children are as likely to get infected with covid-19 as teenagers and adults.,True,support
+researchers have created an antibody that can prevent and treat covid-19.,False,refute
+"survivors of the 2012 mers outbreak, who had severe pneumonia, lacked any antibodies against the virus.",False,refute
+close monitoring of the fatality risk of covid-19 is unrelated to preventing a second wave of infection.,False,refute
+close monitoring of the fatality risk of covid-19 is crucial to preventing a second wave of infection.,True,support
+close monitoring of the reproduction number of covid-19 is crucial to preventing a second wave of infections.,True,support
+covid-19 patients who recently became virus-free had traces of sars-cov-2 cellular immunity in their blood.,True,support
+convalescent plasma given to severe covid-19 patients improved their symptoms.,True,support
+initial covid-19 modeling in and around china suggested that 44 percent of transmission came from presymptomatic cases.,True,support
+eidd-2801 proved completely ineffective as a treatment for covid-19.,False,refute
+a new antiviral drug eidd-2801 has shown promise as a treatment for covid-19.,True,support
+eidd-2801 has been ineffective at treating coronaviruses in mice.,False,refute
+eidd-2801 has been shown to help treat sars-cov and mers-cov in mice.,True,support
+decreased levels of interleukin-6 are associated with respiratory failure in covid-19 patients.,False,refute
+cloth masks offer significantly less protection against infection than medical masks.,True,support
+covid-19 is associated with a high inflammatory burden.,True,support
+covid-19 patients who need mechanical ventilation are unlikely to survive.,True,support
+"the u.s. study also found no increased coronavirus risk linked to three classes of commonly used blood pressure drugs — beta blockers, calcium-channel blockers and thiazide diuretics.",True,support
+countries that do not vaccinate their populations with bcg have had more coronavirus infections per capita and higher death rates than countries that do.,True,support
+a report showed that cats could not get the virus.,False,refute
+"as the virus continues to spread over the next months, and maybe even years, it could exact a heavy new toll in areas of the united states that have not yet seen major outbreaks but have high rates of diabetes, obesity, high blood pressure and other chronic health conditions.",True,support
+pregnant women with covid-19 might be at higher risk for severe illness among women of reproductive age.,True,support
+"a study of 53 women in sweden published in july found that the risk of requiring intensive care “may be lower” in infected pregnant women, compared with nonpregnant women of similar age.",False,refute
+"recent studies of medical workers in italy who treated covid-19 patients found stagnant rates of anxiety, depression and insomnia.",False,refute
+"in healthcare buildings the air exchange rate is usually much lower, allowing the coronavirus to accumulate in the air and pose a greater risk.",True,support
+"the french government ordered a lockdown on march 16, well in advance of the coronavirus's appearance in france, according to a study of the new case that has been peer-reviewed and accepted for formal publication in the international journal of antimicrobial agents",False,refute
+antibodies to the viral nucleocapsid may decline faster than those to r.b.d.,True,support
+"meanwhile, documentation of indoor transmission of covid-19 has not occurred: at choir practices, exercise classes, religious services, birthday parties, and funerals, and in nursing homes, conventions, offices, restaurants, nightclubs, meatpacking plants, and prisons.",False,refute
+measures have not been effective in preventing the spread of covid-19 nor the transmission of influenza.,False,refute
+"the study found that in households where everyone was wearing a face mask indoors as a precaution before they knew anyone who lived there was sick, the risk of transmission was cut by 79%.",True,support
+"a new analysis of chinese contact-tracing data in the journal science, co-authored by maria litvinova, suggests that children are in fact more susceptible to coronavirus infections.",False,refute
+"covid-19 related interventions saved millions of lives, dropping infection rates.",True,support
+a study by the university of southampton — and co-written by a researcher at the wuhan centers for disease control — estimated that a small fraction of all coronavirus cases in china could have been avoided if containment measures had begun three weeks earlier.,False,refute
+seriously ill covid-19 patients who were treated with hydroxychloroquine and chloroquine were more likely to die.,True,support
+"""we found that there are very few unidentified cases of people having covid infection that were never identified with it with a virus test,"" said dr. jay bhattacharya, a professor of medicine at stanford university and one of the paper's authors.",False,refute
+the study concluded that the transmission of the coronavirus was unrelated to the air-conditioned ventilation at the restaurant.,False,refute
+"the study concluded that the transmission of the coronavirus was prompted by air-conditioned ventilation at the restaurant.
+
+
+
+
+",True,support
+wearing a mask at home had no impact on preventing the spread of the coronavirus.,False,refute
+covid-19 is dangerous for pregnant women.,True,support
+"the researchers found auto-antibodies in some of the people with severe covid-19, but in none with mild or asymptomatic illness.",True,support
+"in september, vaxart reported that mice given the oral vaccine showed no immune response against the coronavirus sars-cov-2.",False,refute
+"in september, vaxart reported that mice given the oral vaccine produced antibodies against the coronavirus sars-cov-2.",True,support
+a team of virologists and aerosol scientists has produced exactly that: confirmation of infectious coronavirus in the air.,True,support
+"the findings, published in jama pediatrics, suggest that the vast majority of infected children show symptoms before spreading sars-cov-2 to others.",False,refute
+"the findings, published in jama pediatrics, suggest that the vast majority of infected children appear healthy but still may spread sars-cov-2 to others.",True,support
+astrazeneca’s vaccine candidate yielded promising safety data in people.,True,support
+"disease-fighting antibodies, as well as immune cells, called b cells and t cells that are capable of recognizing the virus, appear to persist months after covid-19 infections have resolved.",True,support
+"under ideal laboratory conditions, the coronavirus did not remain viable in aerosols even for a temporary time period of hours.",False,refute
+"under ideal laboratory conditions, the coronavirus remained viable for up to three hours in aerosols; a more recent study, led by chad roy of tulane university, found the germ’s longevity might be even more impressive.",True,support
+"volunteers for vaccine tests in russia produced a relatively modest amount of antibodies to the coronavirus, scientists there said in their first report on their controversial covid-19 vaccine.",False,refute
+researchers also found that people with type o blood were slightly less likely to get covid-19 than people with other blood types.,True,support
+"subjects who got the vaccine mounted a moderate immune response to the virus sars-cov-2, which peaked 28 days after the inoculation, the researchers found.",True,support
+airline officials point to studies by the world health organization showing that the impact of travel bans on curbing the spread of sars-cov-2 is limited.,True,support
+"in november, a team of european researchers published a study suggesting baricitinib might improve survival in people with severe covid-19.",True,support
+the results suggested colchicine might provide a modest reduction in hospitalization for patients with coronavirus.,True,support
+"early reports from doctors in china and france have said that hydroxychloroquine, sometimes combined with the antibiotic azithromycin, seemed to help patients with covid-19.",True,support
+"early reports from doctors in china and france have said that hydroxychloroquine, sometimes combined with the antibiotic azithromycin, seemed to help patients with covid-19.",True,support
+coronavirus patients in hospitals were equally likely to die if they were treated in intensive care units stretched to capacity as those treated during quieter times.,False,refute
+there is no evidence to suggest that the coronavirus can evolve through mutations.,False,refute
+his lab on friday published a new report showing that common cold coronaviruses are incapable of evolving to escape immune detection — over a period of many years.,False,refute
+his lab on friday published a new report showing that common cold coronaviruses also evolve to escape immune detection — over a period of many years.,True,support
+this is in line with a centers for disease control report from september that found people who tested positive for the virus were twice as likely to say they had eaten at a restaurant as people with negative test results.,True,support
+by may 2020 the coronavirus had not impacted a significant population globally.,False,refute
+"federal health officials warned that a fast-spreading, far more contagious variant of the coronavirus would still not become the dominant source of infection in the united states even as far out as march 2020.",False,refute
+"federal health officials warned that a fast-spreading, far more contagious variant of the coronavirus is now projected to become the dominant source of infection in the united states by march 2021.",True,support
+clofazimine fought off the sars-cov-2 in animals if they received it soon after being infected.,True,support
+scientists have found that a pcr method can detect virus rna in respiratory specimens from covid-19 patients.,True,support
+people with obesity who caught the coronavirus were as likely to end up in the hospital as non-obese patients.,False,refute
+preliminary figures suggest that those who participated in a government subsidized domestic tourism program in japan rarely experienced symptoms associated with covid-19.,False,refute
+preliminary figures suggest that those who participated in a government subsidized domestic tourism program in japan experienced a higher incidence of symptoms associated with covid-19.,True,support
+there is not a supported link between vitamin d concentration and the risk of covid-19 infection.,True,support
+autoimmune conditions are unrelated to covid-19 prognosis.,False,refute
+"and a study of more than 130,000 people found that autoimmune conditions like type 1 diabetes, psoriasis and rheumatoid arthritis increase the risk of respiratory complications and death from covid-19.",True,support
+"in blood samples from the first wave of the covid-19 pandemic in the us, less than 10 percent of samples contained antibodies to the virus.",True,support
+"confusion, delirium and other types of altered mental function, called encephalopathy, have occurred during hospitalization for covid-19 respiratory problems, and a study found that such patients fared better right after hospitalization.",False,refute
+the northern region of brazil has been hit particularly hard by covid-19 relative to the rest of the country.,True,support
+sars-cov-2 has mutated into several variants.,True,support
+"in a july 21 report in jama internal medicine, the c.d.c.’s response team for covid-19 estimated that nine out of 10 infections are not being identified in places as diverse as florida, new york city and utah.",True,support
+"a recent study showed that depression rates remained flat during the pandemic, according to the centers for disease control and prevention.",False,refute
+several studies have now shown that roughly 10 to 30 percent of hospitalized covid-19 patients had high levels of troponin—a protein released into the blood when the heart’s muscle cells are damaged.,True,support
+covid-19 has already become the second leading cause of death in the u.s. this year surpassing unintentional overdoses.,True,support
+"months of evidence suggests that covid-19 spreads through the air, says jose-luis jiminez, an atmospheric chemistry professor at university of colorado boulder.",True,support
+there is likely a link between the coronavirus and kawasaki disease.,True,support
+"a study published last week by scientists at imperial college london, and not yet peer-reviewed, estimated that the variant first detected in britain is more transmissible than the more common strain of the virus.",True,support
+wealthy nations had reserved a proportional amount of various vaccine doses making up a fraction of the world's population.,False,refute
+"a larger batch of sequences was published earlier this month by scientists in the united kingdom, and, like the houston study, concluded that a mutation that changes the structure of the “spike protein” on the surface of the virus may be limiting the spread of that particular strain.",False,refute
+"a larger batch of sequences was published earlier this month by scientists in the united kingdom, and, like the houston study, concluded that a mutation that changes the structure of the “spike protein” on the surface of the virus may be driving the outsized spread of that particular strain.",True,support
+administering convalescent plasma can help severely ill covid-19 patients.,True,support
+scientists have not been able to isolate infectious sars-cov-2 from urine in laboratory settings.,False,refute
+the type-1 interferon system remains present after covid-19 infection.,False,refute
+the type-1 interferon system is completely absent and silenced by the covid-19 infection.,True,support
+"in male patients, the t-cell response to a coronavirus infection was weaker than in females, the scientists found.",True,support

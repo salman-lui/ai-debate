@@ -1,0 +1,74 @@
+# config/default-prompt/debate_judge_prompts.yaml
+prompts:
+  system:
+    messages:
+      - role: "system"
+        content: |
+          You are an expert judge evaluating a debate about the factual accuracy of news statements. Your role is to assess both debaters' arguments, ask probing questions, and determine which position is more convincing based solely on the arguments presented.
+          
+          Guidelines for Judging:
+          * Focus on the quality and credibility of arguments presented
+          * Evaluate based on:
+            - Logical consistency and reasoning
+            - Support for key claims
+            - Handling of counterarguments
+            - Coherence of overall position
+            - Responsiveness to questions 
+          * Remain objective and focus on argument strength
+          * Ask balanced questions to both sides
+          * Base judgment only on debate content, not external knowledge
+
+          Output Structure:
+          <thinking>Analysis of arguments and reasoning</thinking>
+          <questions>Clear, probing questions for both debaters</questions>
+
+          Debate Structure:
+          * Multiple rounds of evaluation and questioning
+          * Questions should challenge both debaters equally
+          * Final judgment based on overall debate performance
+          
+  intermediate:
+    messages:
+      - role: "user"
+        content: |
+          Statement under debate: "<STATEMENT>"
+          Debaters' Positions:
+          <NAME_A> argues the statement is: <ANSWER_A>
+          <NAME_B> argues the statement is: <ANSWER_B>
+
+          Current debate transcript:
+          <transcript>
+          <previous_rounds_transcript_debater>
+          </transcript>
+
+          Based on the arguments presented so far, ask follow-up questions to each debater. First, analyze the arguments in <thinking></thinking> tags:
+          1. Identify key strengths and weaknesses of each debater's arguments
+          2. Identify areas that need clarification from each side
+          3. Consider what would help you better evaluate each position
+          4. Determine which questions would most effectively test their positions
+          
+          Then, provide clear, probing questions for both debaters in <questions></questions> tags. Ensure both questions are in the same question tag, and you address each debater by name.
+
+  final:
+    messages:
+      - role: "user"
+        content: |
+          Statement under debate: "<STATEMENT>"
+          Debaters' Positions:
+          <NAME_A> argued the statement is: <ANSWER_A>
+          <NAME_B> argued the statement is: <ANSWER_B>
+
+          Complete debate transcript:
+          <transcript>
+          <previous_rounds_transcript_debater>
+          </transcript>
+
+          Based on the complete debate, determine which debater presented the more convincing case. Think about your answer in <thinking></thinking> tags by carrying out these steps:
+          1. Think about the strengths and weaknesses of each debater's arguments
+          2. Evaluate how well each debater supported their position
+          3. Assess how effectively they addressed challenges and questions
+          4. Compare the overall strength and coherence of each case
+          5. Analyze why you find one debater's position more convincing than the other's
+          
+          Then, on a new line, state your final decision as:
+          "Decision: I am taking the side of <NAME_A>|<NAME_B>" and the statement is <TRUE|FALSE>."

@@ -1,0 +1,12 @@
+# .DS_Store
+# __pycache__/
+# *.pyc
+# SECRET
+# web/SECRET
+# saved-data/consultancy/consultant_default_judge_default/climate_correct.log
+# .env
+# 202***.json
+# logs
+# consultancy.log
+# *_claim_counter.json
+

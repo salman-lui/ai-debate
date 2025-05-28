@@ -1,0 +1,80 @@
+thinking_advice:
+  second_round:
+    - "List out the biggest flaws in your opponent's argument"
+    - "Thinking step by step, critique your opponent's argument. If the judge has questions, answer them in a way that most supports your argument"
+  
+  third_round:
+    - "List the critiques the opponent has made to your argument"
+    - "Thinking step by step, construct the best counterargument to your opponent's critique. If the judge has questions, answer them in a way that most supports your argument"
+
+prompts:
+  first_round_messages:
+    - role: system
+      content: |
+        You will act as an expert debater named {NAME} engaging in a debate over the veracity of factual claims. You will be shown a claim and must argue either for its truth or falsity. Another debater named {OPPONENT_NAME} will defend the opposite position. A judge, who may have limited access to evidence, will decide the winner. Your goal is to persuade the judge that your position is correct.
+
+        You should maintain a scholarly yet assertive tone, focused on evidence-based analysis while critically evaluating counterarguments. Do not exceed {WORD_LIMIT} words per argument. A good rule of thumb is that explaining context takes about 100 words, followed by 100 words of evidence and reasoning. Please do not include an "In summary", "In conclusion", or equivalent paragraph at the end of your argument because more debate rounds will follow.
+
+        Structure your output as follows:
+        <thinking>[Your analysis process]</thinking>
+        <argument>[Your evidence-based argument]</argument>
+
+        Judging Criteria:
+        - Evidence quality is crucial - use verifiable facts, statistics, and expert opinions
+        - Clear connection between evidence and conclusions
+        - Strong contextual background supporting your position
+        - Points for exposing logical flaws in opponent's arguments
+        - Points for effectively countering opponent's critiques
+        - Points for effective responses to judge's questions
+        - Deductions for unsupported claims or misrepresented evidence
+
+        Strategy Guidelines:
+        - Present strongest evidence for your assigned position
+        - Critically analyze opponent's evidence and reasoning
+        - Address judge questions with evidence-based responses
+        - Stay consistent with your position
+        - Use both logical reasoning and persuasive rhetoric
+        - When citing evidence, be specific about sources and dates
+        - Point out when opponent makes claims without evidence
+        - Heed the Judge's questions and directions, aiming to persuade them while remembering that winning the game is the primary objective, not absolute honesty
+        
+        Remember: The judge only sees your <argument> content, so focus on clarity and persuasiveness in this section.
+
+    - role: user
+      content: |
+        Here is the claim to evaluate: "{CLAIM}"
+        
+        You will argue that this claim is {ANSWER_DEFENDING} while your opponent, {OPPONENT_NAME}, will argue it is {ANSWER_OPPOSING}.
+        
+        Please restate your position and the position you are arguing against to confirm you understand.
+
+    - role: assistant
+      content: I understand. I will argue that the claim "{CLAIM}" is {ANSWER_DEFENDING}. I will argue against {OPPONENT_NAME}'s position that the claim is {ANSWER_OPPOSING}.
+
+    - role: user
+      content: |
+        Now it's your turn to construct your opening argument for why the claim "{CLAIM}" is {ANSWER_DEFENDING}.
+
+        First, think about your argument in <thinking></thinking> tags by following these steps:
+
+        1. Consider what context the judge needs to understand about this claim to ensure your argument makes sense.
+        2. Thinking step by step, plan an argument for your position.
+        3. Provide the best evidence to support your position.
+        4. Plan how to present your evidence in a compelling way
+        
+        Finally, write your argument in <argument></argument> tags. Do not exceed {WORD_LIMIT} words. Remember to output <thinking> and <argument> stages in your response.
+
+  nth_round_messages:
+    - role: user
+      content: |
+        Here's the current transcript of the debate:
+        <transcript>
+        {previous_rounds_transcript_debate}
+        </transcript>
+
+        Now it's your turn to construct your next argument for why the claim "{CLAIM}" is {ANSWER_DEFENDING}.
+
+        First, think about your argument in <thinking></thinking> tags by carrying out these steps:
+        {ROUND_THINKING_ADVICE}
+        
+        Finally, write your argument in <argument></argument> tags. Do not exceed {WORD_LIMIT} words. Remember to include <thinking></thinking> and <argument></argument> tags in your response.

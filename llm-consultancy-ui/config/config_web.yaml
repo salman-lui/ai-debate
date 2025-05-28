@@ -1,0 +1,10 @@
+consultant:
+  name: "Consultant"
+  provider: "openai"
+  model: "gpt-4o"
+  max_retries: 10000
+  temperature: 0.2
+
+consultant_settings:
+  max_rounds: 3        
+  word_limit: 300

@@ -1,0 +1,42 @@
+# config/config.yaml
+
+debaters:
+  first:
+    name: "Debater A"
+    model: "gpt-4o"
+    temperature: 0.2
+  second:
+    name: "Debater B" 
+    model: "gpt-4o"
+    temperature: 0.2
+
+judge:
+  model: "gpt-4o"
+  temperature: 0.0
+
+consultant:
+  name: "Consultant"
+  model: "gpt-4o-mini"
+  temperature: 0.2
+  argue_for: "incorrect"  # Options: "correct" or "incorrect"
+
+data:
+  csv_path: "./data-web/modified_results_gpt_filtered.csv"
+  columns:
+    statement: "statement"
+    correct_answer: "correct_answer"
+    incorrect_answer: "incorrect_answer"
+    content: "full_content"
+  #debate_data_dir: "/Users/salman/Desktop/Project/debate/llm_debate/debate-salman/debate-final/src/main"
+  # Main directory where debate data will be saved
+  output_dir: "/app/output"
+  # Main directory where consultancy data will be saved
+  consultancy_data_dir: "./output_consultancy"
+
+debate_settings:
+  max_rounds: 3
+  word_limit: 150
+
+consultant_settings:
+  max_rounds: 3        # Might want different number of rounds for consultant
+  word_limit: 150      # Could have different word limit for consultant
