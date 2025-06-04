@@ -61,8 +61,10 @@ prompts:
           6. Explain your reasoning for your final verdict
           
           Then, provide only your verdict in <decision></decision> tags, formatted exactly as:
-          "Verdict: <True|False>"
-
+          "Verdict: <True|False>
+          Confidence: <1-100>"
+          
           Remember:
-          - Put your full analysis and reasoning in the <thinking> section
-          - Only put your final verdict in the <decision> section
+          - Put your full analysis of evidence and reasoning in the <thinking> section
+          - Only put your final verdict and confidence in the <decision> section
+          - Confidence is scored from 1 to 100, with 100 meaning you are completely certain of your verdict.

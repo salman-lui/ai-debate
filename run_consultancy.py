@@ -13,13 +13,18 @@ import fcntl
 
 def load_claims(dataset: str) -> List[Dict]:
     """Load claims based on dataset type."""
+    # paths = {
+    #     'covid': 'data/final-data/final_covid_data.json',
+    #     'climate': 'data/final-data/final_climate_data.json'
+    # }
     paths = {
-        'covid': '/home/salman/salman-project/llm-debate-consultancy/multiagent-llm-debate/data/final-data-v2/covid/enriched_covid_data_fact_20250225_011458.json',
-        'climate': '/home/salman/salman-project/llm-debate-consultancy/multiagent-llm-debate/data/final-data-v2/climate/enriched_climate_data_fact_20250225_005758.json'
+        'covid': 'data/final-data/enriched_covid_data_15.json',
+        'climate': 'data/final-data/enriched_climate_data_15.json'
     }
-    with open(paths[dataset], 'r') as f:
+    path = paths.get(dataset) or dataset
+
+    with open(path, 'r') as f:
         all_claims = json.load(f)
-        # return all_claims[:2]
         return all_claims
 
 class ConsultancyRunner:
@@ -161,14 +166,14 @@ class ConsultancyRunner:
                     round_info = self.run_round(round_num)
                     round_data.append(round_info)
                 except Exception as e:
-                    logging.error(f"Error in round {round_num}: {str(e)}")
+                    logging.error(f"Error in round {round_num}", exc_info=e)
                     raise
             
             # Return round data instead of saving
             return round_data
             
         except Exception as e:
-            logging.error(f"Error in consultancy: {str(e)}")
+            logging.error(f"Error in consultancy", exc_info=e)
             raise
 
     @classmethod
@@ -195,19 +200,27 @@ class ConsultancyRunner:
             
             return consultant_config, judge_config
 
-def extract_verdict(question_text: str) -> str:
-    """Extract verdict from judge's question text, case-insensitive."""
+def extract_verdict(question_text: str) -> (str, int):
+    """Extract verdict and confidence from judge's question text, case-insensitive."""
+    verdict = None
+    confidence = None
+
     # Try finding verdict first
     match = re.search(r'verdict:\s*(\w+)', question_text, re.IGNORECASE)
     if match:
-        return match.group(1).capitalize()
-    
+        verdict = match.group(1).capitalize()
+
     # Try finding decision if no verdict found
-    match = re.search(r'<decision>\s*(\w+)\s*</decision>', question_text, re.IGNORECASE)
+    if not verdict:
+        match = re.search(r'<decision>\s*(\w+)\s*</decision>', question_text, re.IGNORECASE)
+        verdict = match.group(1).capitalize()
+
+    # Find confidence
+    match = re.search(r'confidence:\s*(\d{1,3})', question_text, re.IGNORECASE)
     if match:
-        return match.group(1).capitalize()
-    
-    return None
+        confidence = int(match.group(1))
+
+    return (verdict, confidence)
 
 def clean_source(source):
     """Clean source object to only include essential fields."""
@@ -227,12 +240,13 @@ def save_setup_results(args, all_consultation_data, runner):
     results_file = setup_dir / f"results_{args.argue_for}.json"
     
     # Process the data first
-    run_id = f"run_consultant_{args.consultant_model}_judge_{args.judge_model}_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
+    run_id = f"run_consultant_{args.consultant_model}_judge_{args.judge_model}_{datetime.now().strftime('%Y%m%d_%H%M%S.%f')}"
     
     # Structure data for this run
     run_data = {
         'metadata': {
             'setup': f"{args.consultant}_{args.judge}",
+            'prolific_id': args.judge_prolific_id if hasattr(args, 'judge_prolific_id') else None,
             'dataset': args.dataset,
             'argue_for': args.argue_for,
             'timestamp': datetime.now().isoformat(),
@@ -257,7 +271,7 @@ def save_setup_results(args, all_consultation_data, runner):
         
         # Extract verdict
         judge_question = claim_data['rounds'][-1]['judge']['question']
-        verdict = extract_verdict(judge_question)
+        verdict, confidence = extract_verdict(judge_question)
         
         # Basic claim info
         claim_info = {
@@ -266,11 +280,12 @@ def save_setup_results(args, all_consultation_data, runner):
             'answer_defending': claim_context['ANSWER_DEFENDING'],
             'answer_opposing': claim_context['ANSWER_OPPOSING'],
             'judge_final_verdict': verdict,
+            'judge_confidence_level': confidence,
             'label': claim_data['metadata'].get('label'),
             'rounds': claim_data['rounds'],
             'sources': {
-                'supporting_sources': [clean_source(s) for s in claim_data.get('supporting_sources', [])[:15]]
-                # 'opposing_sources': [clean_source(s) for s in claim_data.get('opposing_sources', [])[:15]]
+                'supporting_sources': claim_data['metadata']['supporting_sources'],
+                'opposing_sources': claim_data['metadata']['opposing_sources']
             }
         }
         
@@ -315,7 +330,6 @@ def main():
                        choices=['default', 'persona'],
                        required=True,
                        help='Choose judge type')
-    
     parser.add_argument('--dataset',
                        choices=['covid', 'climate'],
                        required=True,
@@ -327,7 +341,10 @@ def main():
     parser.add_argument('--judge-model',
                        choices=['gpt4o', 'claude', 'qwen', 'deepseek'],
                        required=True,
-                       help='Model for judge')   
+                       help='Model for judge')
+    parser.add_argument('--judge-prolific-id',
+                       required=False,
+                       help='Prolific ID of judge persona')   
     parser.add_argument('--argue-for',
                        choices=['correct', 'incorrect'],
                        required=True,
@@ -335,12 +352,16 @@ def main():
     
     args = parser.parse_args()
 
-    # Load claims based on dataset
-    claims_data = load_claims(args.dataset)
-
     # Load and update configs
     consultant_config, judge_config = ConsultancyRunner._load_base_config(args.consultant_model, args.judge_model)
     
+    # Load claims based on dataset
+    if args.judge == 'persona':
+        consultant_config['judge_prolific_id'] = args.judge_prolific_id
+        claims_data = load_claims(f"./consultancy-claim-assignment-by-participant/{args.judge_prolific_id}_{args.dataset}.json")
+    else:
+        claims_data = load_claims(args.dataset)
+
     # Add argue_for to consultant config right after loading
     consultant_config['argue_for'] = args.argue_for
         
@@ -369,12 +390,12 @@ def main():
             consultant_config['claim_veracity'] = claim_data['veracity']
             logging.info(f"\nProcessing claim: {claim_data['claim']}")
             
-            # Combine supporting and opposing sources (limited to first 15 each)
+            # Combine supporting and opposing sources (limited to first 7 each)
             all_sources = []
             if 'supporting_sources' in claim_data:
-                all_sources.extend(claim_data['supporting_sources'][:15])  # Take first 15 supporting sources
+                all_sources.extend(claim_data['supporting_sources'][:7])  # Take first 7 supporting sources
             if 'opposing_sources' in claim_data:
-                all_sources.extend(claim_data['opposing_sources'][:15])  # Take first 15 opposing sources
+                all_sources.extend(claim_data['opposing_sources'][:7])  # Take first 7 opposing sources
             
             # Debug print to see structure
             print(f"\nDEBUG - Claim data structure:")
@@ -403,15 +424,15 @@ def main():
                     'evidence_label': claim_data.get('evidence_label'),
                     'article': claim_data.get('article'),
                     # Clean sources before saving
-                    'supporting_sources': [clean_source(s) for s in claim_data.get('supporting_sources', [])[:15]]
-                    # 'opposing_sources': [clean_source(s) for s in claim_data.get('opposing_sources', [])[:15]]
+                    'supporting_sources': [clean_source(s) for s in claim_data.get('supporting_sources', [])[:7]],
+                    'opposing_sources': [clean_source(s) for s in claim_data.get('opposing_sources', [])[:7]]
                 },
                 'rounds': round_data
             }
 
         except Exception as e:
             logging.error(f"Error processing claim: {claim_data['claim']}")
-            logging.error(f"Error details: {str(e)}")
+            logging.error(f"Error details", exc_info=e)
             continue
     
     # Save results with runner context

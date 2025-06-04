@@ -1,5 +1,6 @@
 from dataclasses import dataclass
 from typing import Dict, Any, Callable, Optional, List
+import json
 import re
 import random
 
@@ -33,6 +34,11 @@ def format_sources(sources_list):
         
     return "\n\n".join(formatted)
 
+def load_persona(prolific_id: str):
+    with open('./personas/all_personas.json', 'r') as file:
+        personas = json.load(file)
+        return personas[prolific_id]
+
 class PlaceholderManager:
     """Manages dynamic values that get inserted into prompt templates."""
     
@@ -46,6 +52,7 @@ class PlaceholderManager:
         self.config = config
         self.agent_type = agent_type
         self.mode = mode
+        self._judge_prolific_id = config.get('judge_prolific_id')
         self.claim = claim
         self._raw_sources = sources  # Store sources in a separate variable
         self.context = {}
@@ -86,6 +93,16 @@ class PlaceholderManager:
                 getter=lambda: format_sources(self._raw_sources) if self._raw_sources else "",
                 description="Information from sources",
                 condition=lambda: 'browsing' in self.agent_type
+            ),
+            'PERSONA_DESC': PlaceholderSource(
+                getter=lambda: load_persona(self._judge_prolific_id)['description'],
+                description="Judge's persona info, third person",
+                condition=lambda: self._judge_prolific_id is not None
+            ),
+            'PERSONA_DIR': PlaceholderSource(
+                getter=lambda: load_persona(self._judge_prolific_id)['directions'],
+                description="Judge's persona info, as directions",
+                condition=lambda: self._judge_prolific_id is not None
             )
         }
         

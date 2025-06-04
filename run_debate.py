@@ -14,13 +14,18 @@ import fcntl  # Add this import at the top
 
 def load_claims(dataset: str) -> List[Dict]:
     """Load claims based on dataset type."""
+    # paths = {
+    #     'covid': 'data/final-data/final_covid_data.json',
+    #     'climate': 'data/final-data/final_climate_data.json'
+    # }
     paths = {
-        'covid': '/home/salman/salman-project/llm-debate-consultancy/multiagent-llm-debate/data/final-data-v2/covid/enriched_covid_data_fact_20250225_011458.json',
-        'climate': '/home/salman/salman-project/llm-debate-consultancy/multiagent-llm-debate/data/final-data-v2/climate/enriched_climate_data_fact_20250225_005758.json'
+        'covid': 'data/final-data/enriched_covid_data_15.json',
+        'climate': 'data/final-data/enriched_climate_data_15.json'
     }
-    with open(paths[dataset], 'r') as f:
+    path = paths.get(dataset) or dataset
+
+    with open(path, 'r') as f:
         all_claims = json.load(f)
-        # return all_claims[:2]
         return all_claims
 
 class DebateRunner:
@@ -102,7 +107,9 @@ class DebateRunner:
             'NAME_A': self.first_debater_config['name'],
             'NAME_B': self.second_debater_config['name'],
             'ANSWER_A': self.context['ANSWER_DEFENDING'],
-            'ANSWER_B': self.context['ANSWER_OPPOSING']
+            'ANSWER_B': self.context['ANSWER_OPPOSING'],
+            'PERSONA_DIR': self.context.get('PERSONA_DIR'),
+            'PERSONA_DESC': self.context.get('PERSONA_DESC')
         }
         
         # Initialize agents
@@ -246,14 +253,14 @@ class DebateRunner:
                     round_info = self.run_round(round_num)
                     round_data.append(round_info)
                 except Exception as e:
-                    logging.error(f"Error in round {round_num}: {str(e)}")
+                    logging.error(f"Error in round {round_num}", exc_info=e)
                     raise
             
             # Return round data instead of saving
             return round_data
             
         except Exception as e:
-            logging.error(f"Error in debate: {str(e)}")
+            logging.error(f"Error in debate", exc_info=e)
             raise
 
     @classmethod
@@ -308,6 +315,9 @@ def main():
                        choices=['gpt4o', 'claude', 'qwen', 'deepseek'],
                        required=True,
                        help='Model for judge')
+    parser.add_argument('--judge-prolific-id',
+                       required=False,
+                       help='Prolific ID of judge persona')   
     parser.add_argument('--argue-for-debater-a',
                        choices=['correct', 'incorrect'],
                        required=True,
@@ -316,7 +326,10 @@ def main():
     args = parser.parse_args()
     
     # Load claims based on dataset
-    claims_data = load_claims(args.dataset)
+    if args.judge == 'persona':
+        claims_data = load_claims(f"./debate-claim-assignment-by-participant/{args.judge_prolific_id}_{args.dataset}.json")
+    else:
+        claims_data = load_claims(args.dataset)
     
     # Create setup directory
     setup_dir = Path('saved-data/debate') / f"debater_{args.debater}_judge_{args.judge}"
@@ -337,22 +350,28 @@ def main():
     all_debate_data = {}
     
     print(f"\nStarting claims processing... Total claims: {len(claims_data)}")
+    if len(claims_data) == 0:
+        return
+    
     for claim_data in claims_data:
         try:
             logging.info(f"\nProcessing claim: {claim_data['claim']}")
             
-            # Combine supporting and opposing sources (limited to first 15 each)
+            # Combine supporting and opposing sources (limited to first 7 each)
             all_sources = []
             if 'supporting_sources' in claim_data:
-                all_sources.extend(claim_data['supporting_sources'][:15])  # Take first 15 supporting sources
+                all_sources.extend(claim_data['supporting_sources'][:7])  # Take first 7 supporting sources
             if 'opposing_sources' in claim_data:
-                all_sources.extend(claim_data['opposing_sources'][:15])  # Take first 15 opposing sources
+                all_sources.extend(claim_data['opposing_sources'][:7])  # Take first 7 opposing sources
             
             first_debater_config, second_debater_config, judge_config = DebateRunner._load_base_config(
                 args.debater_a_model, 
                 args.debater_b_model, 
                 args.judge_model
             )
+
+            if args.judge == 'persona':
+                first_debater_config['judge_prolific_id'] = args.judge_prolific_id
             
             # Add claim veracity and argue_for setting
             first_debater_config['claim_veracity'] = claim_data['veracity']
@@ -379,17 +398,16 @@ def main():
                     'label': claim_data.get('label'),
                     'evidence': claim_data.get('evidence'),
                     'evidence_label': claim_data.get('evidence_label'),
-                    'article': claim_data.get('article'),
-                    # Clean sources before saving
-                    'supporting_sources': [clean_source(s) for s in claim_data.get('supporting_sources', [])[:15]]
-                    # 'opposing_sources': [clean_source(s) for s in claim_data.get('opposing_sources', [])[:15]]
+                    'article': claim_data.get('article')
                 },
-                'rounds': round_data
+                'rounds': round_data,
+                'supporting_sources': claim_data.get('supporting_sources', []),
+                'opposing_sources': claim_data.get('opposing_sources', [])
             }
             
         except Exception as e:
             logging.error(f"Error processing claim: {claim_data['claim']}")
-            logging.error(f"Error details: {str(e)}")
+            logging.error(f"Error details", exc_info=e)
             continue
     
     # Save results with runner context
@@ -404,11 +422,12 @@ def save_debate_results(args, all_debate_data, runner):
     results_file = setup_dir / f"results_{args.argue_for_debater_a}.json"
     
     # Process the data first
-    run_id = f"run_da-{args.debater_a_model}_db-{args.debater_b_model}_j-{args.judge_model}_{datetime.now().strftime('%Y%m%d_%H%M%S')}"
+    run_id = f"run_da-{args.debater_a_model}_db-{args.debater_b_model}_j-{args.judge_model}_{datetime.now().strftime('%Y%m%d_%H%M%S.%f')}"
     
     run_data = {
         'metadata': {
             'setup': f"{args.debater}_{args.judge}",
+            'prolific_id': args.judge_prolific_id if hasattr(args, 'judge_prolific_id') else None,
             'dataset': args.dataset,
             'argue_for_debater_a': args.argue_for_debater_a,
             'timestamp': datetime.now().isoformat(),
@@ -435,7 +454,7 @@ def save_debate_results(args, all_debate_data, runner):
         
         # Extract judge's final verdict from last round
         judge_questions = claim_data['rounds'][-1]['judge']['questions']
-        verdict = extract_verdict(judge_questions)
+        verdict, confidence = extract_verdict(judge_questions)
         
         # Detailed claim info
         claim_info = {
@@ -446,10 +465,12 @@ def save_debate_results(args, all_debate_data, runner):
             'debater_b_defending': claim_context['ANSWER_OPPOSING'],  # B argues opposite of A
             'debater_b_opposing': claim_context['ANSWER_DEFENDING'],  # B argues opposite of A
             'judge_final_verdict': verdict,
+            'judge_confidence_level': confidence,
             'label': claim_data['metadata'].get('label'),
             'rounds': claim_data['rounds'],
             'sources': {
-                'supporting_sources': [clean_source(s) for s in claim_data['metadata']['supporting_sources']]
+                'supporting_sources': [clean_source(s) for s in claim_data.get('supporting_sources', [])[:7]],
+                'opposing_sources': [clean_source(s) for s in claim_data.get('opposing_sources', [])[:7]]
             }
         }
         
@@ -482,19 +503,27 @@ def save_debate_results(args, all_debate_data, runner):
     
     logging.info(f"Saved results to {results_file}")
 
-def extract_verdict(question_text: str) -> str:
-    """Extract verdict from judge's question text, case-insensitive."""
+def extract_verdict(question_text: str) -> (str, int):
+    """Extract verdict and confidence from judge's question text, case-insensitive."""
+    verdict = None
+    confidence = None
+
     # Try finding verdict first
     match = re.search(r'verdict:\s*(\w+)', question_text, re.IGNORECASE)
     if match:
-        return match.group(1).capitalize()
-    
+        verdict = match.group(1).capitalize()
+
     # Try finding decision if no verdict found
-    match = re.search(r'<decision>\s*(\w+)\s*</decision>', question_text, re.IGNORECASE)
+    if not verdict:
+        match = re.search(r'<decision>\s*(\w+)\s*</decision>', question_text, re.IGNORECASE)
+        verdict = match.group(1).capitalize()
+
+    # Find confidence
+    match = re.search(r'confidence:\s*(\d{1,3})', question_text, re.IGNORECASE)
     if match:
-        return match.group(1).capitalize()
-    
-    return None
+        confidence = int(match.group(1))
+
+    return (verdict, confidence)
 
 def clean_source(source):
     """Clean source object to only include essential fields."""

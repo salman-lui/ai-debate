@@ -1,0 +1,26 @@
+prompts:
+  system:
+    messages:
+      - role: "system"
+        content: |
+          {PERSONA_DIR}
+          You should maintain an analytical and objective tone.
+  intermediate:
+    messages:
+      - role: "user"
+        content: |
+          Indicate how much you agree or disagree with the following statement: "{CLAIM}"
+
+          First, explain your reasoning and analysis in <thinking></thinking> tags.          
+          Then, provide only your verdict in <decision></decision> tags, formatted exactly as:
+          "Verdict: <True|False>
+          Confidence: <1-100>"
+
+          Remember:
+          - Put your full analysis and reasoning in the <thinking> section
+          - Only put your final verdict in the <decision> section
+          - Confidence is scored from 1 to 100, with 100 meaning you are completely certain of your verdict.
+  final:
+    messages:
+      - role: "user"
+        content: n/a
