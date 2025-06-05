@@ -1,6 +1,7 @@
 <div align="center">
   <h1>AI Debate Aids Assessment of Controversial Claims</h1>
-  <p>AI debate improves human judgment accuracy on controversial COVID-19 claims by 10% over single-advisor consultancy, with persona-based LLM judges outperforming humans—demonstrating progress on scalable oversight for supervising AI systems beyond human expertise.</p>
+  <p><strong>Paper:</strong> <a href="https://arxiv.org/abs/2506.02175">https://arxiv.org/abs/2506.02175</a></p>
+  <p>AI debate improves human judgment accuracy on controversial claims by 10% over single-advisor consultancy, with persona-based LLM judges outperforming humans—demonstrating progress on scalable oversight for supervising AI systems beyond human expertise.</p>
 </div>
 <br>
 
