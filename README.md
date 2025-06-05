@@ -4,7 +4,7 @@
 </div>
 <br>
 
-A framework for structured discussions between Large Language Models (LLMs) in two modes: debate and consultancy.
+![](visuals/debate-overview.png)
 
 ## Features
 - Two operation modes: Debate (2 debaters + judge) or Consultancy (1 consultant + judge)
