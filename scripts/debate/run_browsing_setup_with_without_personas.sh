@@ -8,7 +8,7 @@ LOG_DIR="logs/debate"
 mkdir -p "$LOG_DIR"
 
 # Main log file
-MAIN_LOG="$LOG_DIR/run_browsing_setup_with_personas.log"
+MAIN_LOG="$LOG_DIR/run_browsing_setup_with_without_personas.log"
 
 POSITIONS=("correct") #"incorrect")
 
@@ -90,4 +90,4 @@ parameter_combinations | parallel --progress --bar --eta \
 echo "Completed all parallel runs at $(date)" >> "$MAIN_LOG"
 
 # Usage:
-# bash scripts/debate/run_browsing_setup_with_personas.sh
+# bash scripts/debate/run_browsing_setup_with_without_personas.sh
