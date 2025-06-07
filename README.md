@@ -100,19 +100,60 @@ First, run the following script to generate personas:
 python get_personas_from_prolific.py -i input.csv
 ```
 
-Then, to run a debate or consultancy experiment, run one of the following shell scripts. These scripts do two experiments: one which incorporates the simulated personas, and a control run which has the same claims but no persona.
 
-> **Note:** these scripts are likewise configured to run on the COVID dataset. You will need to place JSON files containing the assigned claims for every Prolific response under `consultancy-claim-assignment-by-participant/PROLIFIC_ID.json` and `debate-claim-assignment-by-participant/PROLIFIC_ID.json`.
+#### Debate Mode
+
+**Single Run:**
+
+The `judge_id` is used to locate the file containing claim assignments for a given respondent. You will need to place JSON files containing the assigned claims for every Prolific response under `debate-claim-assignment-by-participant/PROLIFIC_ID.json` (refer to below section for file format).
 
 ```bash
-# runs consultancy both with and without the simulated personas
-./scripts/consultancy/run_browsing_setup_with_without_personas.sh
+python run_debate.py \
+        --dataset covid \
+        --debater browsing-personalized \
+        --judge persona \
+        --debater-a-model gpt4o \
+        --debater-b-model gpt4o \
+        --judge-model gpt4o \
+        --argue-for-debater-a correct \
+        --judge-prolific-id "$judge_id"
+```
 
+**Batch Processing (All Combinations):**
+```bash
 # runs debate both with and without the simulated personas
 ./scripts/debate/run_browsing_setup_with_without_personas.sh
 ```
 
-The claim assignment files are formatted as such:
+This script does two experiments: one which incorporates the simulated personas, and a control run which has the same claims but no persona. By default, it is configured to run on the COVID dataset.
+
+#### Consultancy Mode
+
+**Single Run:**
+
+The `judge_id` is used to locate the file containing claim assignments for a given respondent. You will need to place JSON files containing the assigned claims for every Prolific response under `consultancy-claim-assignment-by-participant/PROLIFIC_ID.json` (refer to below section for file format).
+
+```bash
+python run_consultancy.py \
+        --dataset covid \
+        --consultant browsing-personalized \
+        --judge persona \
+        --consultant-model gpt4o \
+        --judge-model gpt4o \
+        --argue-for correct \
+        --judge-prolific-id "$judge_id"
+```
+
+**Batch Processing (All Combinations):**
+
+```bash
+# runs consultancy both with and without the simulated personas
+./scripts/consultancy/run_browsing_setup_with_without_personas.sh
+```
+
+This script does two experiments: one which incorporates the simulated personas, and a control run which has the same claims but no persona. By default, it is configured to run on the COVID dataset.
+
+#### Claim Assignment Format
 
 ```json
 [
