@@ -1,4 +1,0 @@
-gradio==5.5.0
-requests==2.32.2
-openai==1.56.0
-google-cloud-storage>=2.19.0
