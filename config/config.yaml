@@ -3,14 +3,14 @@ consultant:
     name: "Consultant"
     provider: "anthropic"
     model: "claude-3-5-sonnet-20241022"
-    max_retries: 10000
+    max_retries: 3
     temperature: 0.2
   
   openai:
     name: "Consultant"
     provider: "openai"
     model: "gpt-4o"
-    max_retries: 10000
+    max_retries: 3
     temperature: 0.2
   
   sglang:
@@ -18,7 +18,7 @@ consultant:
     provider: "sglang"
     model: "Qwen/Qwen2.5-7B-Instruct"
     port: 30005
-    max_retries: 10000
+    max_retries: 3
     temperature: 0.2
     
   azure:
@@ -26,7 +26,7 @@ consultant:
     provider: "azure"
     model: "DeepSeek-R1"
     endpoint: "https://DeepSeek-R1-rgchv.eastus.models.ai.azure.com"
-    max_retries: 10000
+    max_retries: 3
     temperature: 0.2
 
 consultant_judge:
@@ -34,14 +34,14 @@ consultant_judge:
     name: "Consultant Judge"
     provider: "anthropic"
     model: "claude-3-5-sonnet-20241022"
-    max_retries: 10000
+    max_retries: 3
     temperature: 0
   
   openai:
     name: "Consultant Judge"
     provider: "openai"
     model: "gpt-4o"
-    max_retries: 10000
+    max_retries: 3
     temperature: 0
   
   sglang:
@@ -49,14 +49,14 @@ consultant_judge:
     provider: "sglang"
     model: "Qwen/Qwen2.5-7B-Instruct"
     port: 30005
-    max_retries: 10000
+    max_retries: 3
     temperature: 0
   azure:
     name: "Consultant Judge"
     provider: "azure"
     model: "DeepSeek-R1"
     endpoint: "https://DeepSeek-R1-rgchv.eastus.models.ai.azure.com"
-    max_retries: 10000
+    max_retries: 3
     temperature: 0
 
 consultant_settings:
@@ -71,27 +71,27 @@ debaters:
       provider: "anthropic"
       model: "claude-3-5-sonnet-20241022"
       temperature: 0.2
-      max_retries: 300000
+      max_retries: 3
     openai:
       name: "Debater A"
       provider: "openai"
       model: "gpt-4o"
       temperature: 0.2
-      max_retries: 300000
+      max_retries: 3
     sglang:
       name: "Debater A"
       provider: "sglang"
       model: "Qwen/Qwen2.5-7B-Instruct"
       port: 30005
       temperature: 0.2
-      max_retries: 300000
+      max_retries: 3
     azure:
       name: "Debater A"
       provider: "azure"
       model: "DeepSeek-R1"
       endpoint: "https://DeepSeek-R1-rgchv.eastus.models.ai.azure.com"
       temperature: 0.2
-      max_retries: 300000
+      max_retries: 3
   
   second:
     anthropic:
@@ -99,27 +99,27 @@ debaters:
       provider: "anthropic"
       model: "claude-3-5-sonnet-20241022"
       temperature: 0.2
-      max_retries: 300000
+      max_retries: 3
     openai:
       name: "Debater B"
       provider: "openai"
       model: "gpt-4o"
       temperature: 0.2
-      max_retries: 300000 
+      max_retries: 3 
     sglang:
       name: "Debater B"
       provider: "sglang"
       model: "Qwen/Qwen2.5-7B-Instruct"
       port: 30005
       temperature: 0.2
-      max_retries: 300000
+      max_retries: 3
     azure:
       name: "Debater B"
       provider: "azure"
       model: "DeepSeek-R1"
       endpoint: "https://DeepSeek-R1-rgchv.eastus.models.ai.azure.com"
       temperature: 0.2
-      max_retries: 300000
+      max_retries: 3
 
 
 debate_judge:
@@ -128,36 +128,30 @@ debate_judge:
     provider: "anthropic"
     model: "claude-3-5-sonnet-20241022"
     temperature: 0
-    max_retries: 300000
+    max_retries: 3
   openai:
     name: "Debate Judge"
     provider: "openai"
     model: "gpt-4o"
     temperature: 0
-    max_retries: 300000
+    max_retries: 3
   sglang:
     name: "Debate Judge"
     provider: "sglang"
     model: "Qwen/Qwen2.5-7B-Instruct"
     port: 30005
     temperature: 0
-    max_retries: 300000
+    max_retries: 3
   azure:
     name: "Debate Judge"
     provider: "azure"
     model: "DeepSeek-R1"
     endpoint: "https://DeepSeek-R1-rgchv.eastus.models.ai.azure.com"
     temperature: 0
-    max_retries: 300000
+    max_retries: 3
 
 
 debater_settings:
   max_rounds: 3        
   word_limit: 150
 
-
-
-
-# data:
-#   # Main directory where consultancy data will be saved
-#   consultancy_saved_data_dir: "/Users/salman/Desktop/Project/debate/llm_debate/debate-salman/debate-final/src/main/saved-data/nov-26/output_consultancy"      

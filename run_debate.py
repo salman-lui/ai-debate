@@ -539,6 +539,3 @@ def clean_source(source):
 
 if __name__ == "__main__":
     main()
-
-
-# python run_debate.py --debater browsing --judge default --dataset covid --debater-a-model qwen --debater-b-model gpt4o --judge-model gpt4o --argue-for-debater-a correct

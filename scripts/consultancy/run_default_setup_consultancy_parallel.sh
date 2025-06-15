@@ -63,6 +63,3 @@ parameter_combinations | parallel --progress --bar --eta \
 
 # Log completion
 echo "Completed all parallel runs at $(date)" >> "$MAIN_LOG"
-
-# Usage:
-# bash scripts/consultancy/run_default_setup_consultancy_parallel.sh

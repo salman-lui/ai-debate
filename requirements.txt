@@ -8,7 +8,6 @@ requests
 pyyaml
 aisuite
 gradio==5.5.0
-sglang[all]>=0.4.3.post2
 azure-ai-inference
 google-cloud-storage>=2.19.0
 dotenv

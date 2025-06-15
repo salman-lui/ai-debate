@@ -17,10 +17,10 @@ This repository provides all resources for the paper ["AI Debate Aids Assessment
 - [LLM Judge Experiments](#llm-judge-experiments)
   - [Debate Mode](#debate-mode)
   - [Consultancy Mode](#consultancy-mode)
-- [Human Judge Experiments](#human-judge-experiments)
+- [Persona-based LLM Judge Experiments](#persona-based-llm-judge-experiments)
 - [Configuration](#configuration)
-- [Data](#data)
-- [Citation](#citation)
+- [Saved Data](#saved-data)
+- [Human Judge Experiments](#human-judge-experiments)
 
 ### Quick Start
 
@@ -28,13 +28,33 @@ This repository provides all resources for the paper ["AI Debate Aids Assessment
 ```bash
 git clone https://github.com/salman-lui/ai-debate
 cd ai-debate
+
+# Create a new conda environment with Python 3.10
+conda create -n ai-debate python=3.10 -y
+
+# Activate the environment
+conda activate ai-debate
+
 pip install -r requirements.txt
 ```
 
 #### Setup Configuration
-Edit `config/config.yaml` to configure your API keys and model settings.
+Edit `config/config.yaml` to configure debater, consultant, and LLM judge settings. The config.yaml contains different model providers (OpenAI, Anthropic, Azure, SGLang).
 
-### LLM Judge Experiments
+**OpenAI Setup:**
+```bash
+export OPENAI_API_KEY='your-openai-api-key'
+```
+
+**Claude Setup:**
+```bash
+export ANTHROPIC_API_KEY='your-anthropic-api-key'
+```
+
+**Open Source Models Setup:**
+For open source models, set up SGLang and change the configuration in `config.yaml` accordingly.
+
+### LLM Judge Experiments (Example with OpenAI GPT-4o) 
 
 #### Debate Mode
 
@@ -45,20 +65,20 @@ python run_debate.py \
     --debater default \
     --judge default \
     --debater-a-model gpt4o \
-    --debater-b-model qwen \
+    --debater-b-model gpt4o \
     --judge-model gpt4o \
     --argue-for-debater-a correct \
     --test-run
 ```
 
-**Single Run:**
+**Full Run (One Combination):**
 ```bash
 python run_debate.py \
     --dataset covid \
     --debater default \
     --judge default \
     --debater-a-model gpt4o \
-    --debater-b-model qwen \
+    --debater-b-model gpt4o \
     --judge-model gpt4o \
     --argue-for-debater-a correct
 ```
@@ -67,16 +87,7 @@ python run_debate.py \
 ```bash
 # Run all dataset/model/position combinations in parallel
 bash scripts/debate/run_default_setup_debate_parallel.sh
-
-# Sequential processing (if parallel not available)
-bash scripts/debate/run_default_setup_debate_sequential.sh
 ```
-
-This runs experiments with:
-- Datasets: `covid`, `climate`
-- Models: `gpt4o`, `qwen`
-- Positions: `correct`, `incorrect`
-- All debater A/B and judge model combinations
 
 #### Consultancy Mode
 
@@ -87,34 +98,31 @@ python run_consultancy.py \
     --consultant default \
     --judge default \
     --consultant-model gpt4o \
-    --judge-model qwen \
+    --judge-model gpt4o \
     --argue-for correct \
     --test-run
 ```
 
-**Single Run (All Claims):**
+**Full Run (One Combination):**
 ```bash
 python run_consultancy.py \
     --dataset covid \
     --consultant default \
     --judge default \
     --consultant-model gpt4o \
-    --judge-model qwen \
+    --judge-model gpt4o \
     --argue-for correct
 ```
 
-**Batch Processing:**
+**Batch Processing (All Combinations):**
 ```bash
 # Run all combinations in parallel
 bash scripts/consultancy/run_default_setup_consultancy_parallel.sh
-
-# Sequential processing
-bash scripts/consultancy/run_default_setup_consultancy_sequential.sh
 ```
 
 ### Persona-based LLM Judge Experiments
 
-This assumes you have CSV files with human judge responses, such as those exported from Prolific.
+This section covers experiments using human judge personas from crowd annotation platforms like Prolific.
 
 First, run the following script to generate personas:
 
@@ -125,60 +133,13 @@ First, run the following script to generate personas:
 python get_personas_from_prolific.py -i input.csv
 ```
 
-#### Debate Mode
+#### Claim Assignment Setup
 
-**Single Run:**
+You will need to place JSON files containing the assigned claims for every Prolific response:
+- Debate experiments: `debate-claim-assignment-by-participant/PROLIFIC_ID.json`
+- Consultancy experiments: `consultancy-claim-assignment-by-participant/PROLIFIC_ID.json`
 
-The `judge_id` is used to locate the file containing claim assignments for a given respondent. You will need to place JSON files containing the assigned claims for every Prolific response under `debate-claim-assignment-by-participant/PROLIFIC_ID.json` (refer to below section for file format).
-
-```bash
-python run_debate.py \
-        --dataset covid \
-        --debater browsing-personalized \
-        --judge persona \
-        --debater-a-model gpt4o \
-        --debater-b-model gpt4o \
-        --judge-model gpt4o \
-        --argue-for-debater-a correct \
-        --judge-prolific-id "$judge_id"
-```
-
-**Batch Processing (All Combinations):**
-```bash
-# runs debate both with and without the simulated personas
-./scripts/debate/run_browsing_setup_with_without_personas.sh
-```
-
-This script does two experiments: one which incorporates the simulated personas, and a control run which has the same claims but no persona. By default, it is configured to run on the COVID dataset.
-
-#### Consultancy Mode
-
-**Single Run:**
-
-The `judge_id` is used to locate the file containing claim assignments for a given respondent. You will need to place JSON files containing the assigned claims for every Prolific response under `consultancy-claim-assignment-by-participant/PROLIFIC_ID.json` (refer to below section for file format).
-
-```bash
-python run_consultancy.py \
-        --dataset covid \
-        --consultant browsing-personalized \
-        --judge persona \
-        --consultant-model gpt4o \
-        --judge-model gpt4o \
-        --argue-for correct \
-        --judge-prolific-id "$judge_id"
-```
-
-**Batch Processing (All Combinations):**
-
-```bash
-# runs consultancy both with and without the simulated personas
-./scripts/consultancy/run_browsing_setup_with_without_personas.sh
-```
-
-This script does two experiments: one which incorporates the simulated personas, and a control run which has the same claims but no persona. By default, it is configured to run on the COVID dataset.
-
-#### Claim Assignment Format
-
+**Claim Assignment Format:**
 ```json
 [
   {
@@ -197,23 +158,65 @@ This script does two experiments: one which incorporates the simulated personas,
         "title": "Infection and Rapid Transmission of SARS-CoV-2 in Ferrets",
         "url": "https://www.sciencedirect.com/science/article/pii/S1931312820301876",
         "content": "The message from Elsevier B.V. indicates a technical issue..."
-      },
-      ...
+      }
     ]
-  },
-  ...
+  }
 ]
 ```
 
+#### Running Persona-based Experiments
+
+**Debate Mode:**
+```bash
+python run_debate.py \
+        --dataset covid \
+        --debater browsing-personalized \
+        --judge persona \
+        --debater-a-model gpt4o \
+        --debater-b-model gpt4o \
+        --judge-model gpt4o \
+        --argue-for-debater-a correct \
+        --judge-prolific-id "$judge_id"
+```
+
+**Consultancy Mode:**
+```bash
+python run_consultancy.py \
+        --dataset covid \
+        --consultant browsing-personalized \
+        --judge persona \
+        --consultant-model gpt4o \
+        --judge-model gpt4o \
+        --argue-for correct \
+        --judge-prolific-id "$judge_id"
+```
+
+**Batch Processing (With and Without Personas):**
+```bash
+# Debate experiments with persona comparison
+./scripts/debate/run_browsing_setup_with_without_personas.sh
+
+# Consultancy experiments with persona comparison
+./scripts/consultancy/run_browsing_setup_with_without_personas.sh
+```
+
+These scripts run two experiments each: one incorporating simulated personas and a control run with the same claims but no persona. By default, configured for the COVID dataset.
+
 ### Configuration
 
-Available options:
+**Available options:**
 - **Datasets**: `covid`, `climate` 
-- **Models**: `gpt4o`, `claude`, `qwen`, `deepseek`
+- **Models**: `gpt4o`, `claude`, `deepseek`, `azure`
 - **Agent types**: `default`, `browsing`, `default-personalized`, `browsing-personalized`
 - **Judge types**: `default`, `persona`
 
-### Data
+**Batch processing experiments run with:**
+- Datasets: `covid`, `climate`
+- Models: `gpt4o`, `claude`
+- Positions: `correct`, `incorrect`
+- All debater A/B and judge model combinations
+
+### Saved Data
 
 Results are automatically saved in structured JSON format:
 ```
@@ -228,7 +231,6 @@ saved-data/
         └── climate/results_incorrect.json
 ```
 
-
 ### Human Judge Experiments
 
 For conducting human judge experiments, refer to the UI implementations in:
@@ -236,4 +238,6 @@ For conducting human judge experiments, refer to the UI implementations in:
 - Consultancy UI: `llm-consultancy-ui/` - Web interface for consultancy experiments with human judges
 
 Each UI folder contains its own README with detailed setup and usage instructions.
+
+
 

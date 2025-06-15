@@ -84,6 +84,3 @@ parameter_combinations | parallel --progress --bar --eta \
 
 # Log completion
 echo "Completed all parallel runs at $(date)" >> "$MAIN_LOG"
-
-# Usage:
-# bash scripts/consultancy/run_browsing_setup_with_without_personas.sh

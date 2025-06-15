@@ -63,8 +63,3 @@ parameter_combinations | parallel --progress --bar --eta \
 
 # Log completion
 echo "Completed all parallel runs at $(date)" >> "$MAIN_LOG"
-
-# Usage:
-# bash scripts/consultancy/run_browsing_setup.sh 
-
-# python run_consultancy.py --dataset climate --consultant browsing --judge default --consultant-model gpt4o --judge-model gpt4o --argue-for correct
