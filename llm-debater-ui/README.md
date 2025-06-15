@@ -168,18 +168,6 @@ GRADIO_SERVER_NAME             # Server binding (default: 0.0.0.0)
 GRADIO_SERVER_PORT             # Server port (default: 7860)
 ```
 
-## Citation
-
-If you use this UI in your research, please cite:
-
-```bibtex
-@misc{rahman2025aidebate,
-      title={AI Debate Aids Assessment of Controversial Claims},
-      author={Salman Rahman and Sheriff Issaka and Ashima Suvarna and Genglin Liu and James Shiffer and Jaeyoung Lee and Md Rizwan Parvez and Hamid Palangi and Shi Feng and Nanyun Peng and Yejin Choi and Julian Michael and Liwei Jiang and Saadia Gabriel},
-      year={2025}
-}
-```
-
 ## License
 
 This project is part of the AI Debate research system. Please refer to the main repository for licensing information.

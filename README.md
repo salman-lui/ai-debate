@@ -52,7 +52,7 @@ export ANTHROPIC_API_KEY='your-anthropic-api-key'
 ```
 
 **Open Source Models Setup:**
-For open source models, set up SGLang and change the configuration in `config.yaml` accordingly.
+For open source models, set up [SGLang](https://docs.sglang.ai/start/install.html) and change the configuration in `config.yaml` accordingly.
 
 ### LLM Judge Experiments (Example with OpenAI GPT-4o) 
 
@@ -71,7 +71,7 @@ python run_debate.py \
     --test-run
 ```
 
-**Full Run (One Combination):**
+**Full Run (All Claims):**
 ```bash
 python run_debate.py \
     --dataset covid \
@@ -103,7 +103,7 @@ python run_consultancy.py \
     --test-run
 ```
 
-**Full Run (One Combination):**
+**Full Run (All Claims):**
 ```bash
 python run_consultancy.py \
     --dataset covid \
@@ -233,9 +233,9 @@ saved-data/
 
 ### Human Judge Experiments
 
-For conducting human judge experiments, refer to the UI implementations in:
-- Debate UI: `llm-debater-ui/` - Web interface for debate experiments with human judges
-- Consultancy UI: `llm-consultancy-ui/` - Web interface for consultancy experiments with human judges
+For conducting human judge experiments, refer to the UI implementations:
+- **Debate UI**: [`llm-debater-ui/`](./llm-debater-ui/) - Web interface for debate experiments with human judges
+- **Consultancy UI**: [`llm-consultancy-ui/`](./llm-consultancy-ui/) - Web interface for consultancy experiments with human judges
 
 Each UI folder contains its own README with detailed setup and usage instructions.
 
