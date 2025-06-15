@@ -26,8 +26,8 @@ This repository provides all resources for the paper ["AI Debate Aids Assessment
 
 #### Installation
 ```bash
-git clone https://github.com/yourusername/ai-debate-consultancy.git
-cd ai-debate-consultancy
+git clone https://github.com/salman-lui/ai-debate
+cd ai-debate
 pip install -r requirements.txt
 ```
 
@@ -37,6 +37,19 @@ Edit `config/config.yaml` to configure your API keys and model settings.
 ### LLM Judge Experiments
 
 #### Debate Mode
+
+**Test Run (Single Claim):**
+```bash
+python run_debate.py \
+    --dataset covid \
+    --debater default \
+    --judge default \
+    --debater-a-model gpt4o \
+    --debater-b-model qwen \
+    --judge-model gpt4o \
+    --argue-for-debater-a correct \
+    --test-run
+```
 
 **Single Run:**
 ```bash
@@ -67,7 +80,19 @@ This runs experiments with:
 
 #### Consultancy Mode
 
-**Single Run:**
+**Test Run (Single Claim):**
+```bash
+python run_consultancy.py \
+    --dataset covid \
+    --consultant default \
+    --judge default \
+    --consultant-model gpt4o \
+    --judge-model qwen \
+    --argue-for correct \
+    --test-run
+```
+
+**Single Run (All Claims):**
 ```bash
 python run_consultancy.py \
     --dataset covid \
@@ -87,7 +112,7 @@ bash scripts/consultancy/run_default_setup_consultancy_parallel.sh
 bash scripts/consultancy/run_default_setup_consultancy_sequential.sh
 ```
 
-### Human Judge Experiments
+### Persona-based LLM Judge Experiments
 
 This assumes you have CSV files with human judge responses, such as those exported from Prolific.
 
@@ -99,7 +124,6 @@ First, run the following script to generate personas:
 # multiple CSVs can be passed in at once by repeating the -i flag
 python get_personas_from_prolific.py -i input.csv
 ```
-
 
 #### Debate Mode
 
@@ -204,17 +228,12 @@ saved-data/
         └── climate/results_incorrect.json
 ```
 
-Each experiment produces:
-- Judge verdicts vs ground truth accuracy
-- Confidence scores and calibration
-- Complete conversation transcripts
-- Model performance comparisons
 
-### Citation
+### Human Judge Experiments
 
-```bibtex
-@misc{rahman2025aidebate,
-      title={AI Debate Aids Assessment of Controversial Claims}, 
-      author={Salman Rahman and Sheriff Issaka and Ashima Suvarna and Genglin Liu and James Shiffer and Jaeyoung Lee and Md Rizwan Parvez and Hamid Palangi and Shi Feng and Nanyun Peng and Yejin Choi and Julian Michael and Liwei Jiang and Saadia Gabriel},
-```
+For conducting human judge experiments, refer to the UI implementations in:
+- Debate UI: `llm-debater-ui/` - Web interface for debate experiments with human judges
+- Consultancy UI: `llm-consultancy-ui/` - Web interface for consultancy experiments with human judges
+
+Each UI folder contains its own README with detailed setup and usage instructions.
 

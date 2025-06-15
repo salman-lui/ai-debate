@@ -13,10 +13,6 @@ import fcntl
 
 def load_claims(dataset: str) -> List[Dict]:
     """Load claims based on dataset type."""
-    # paths = {
-    #     'covid': 'data/final-data/final_covid_data.json',
-    #     'climate': 'data/final-data/final_climate_data.json'
-    # }
     paths = {
         'covid': 'data/final-data/enriched_covid_data_15.json',
         'climate': 'data/final-data/enriched_climate_data_15.json'
@@ -349,6 +345,9 @@ def main():
                        choices=['correct', 'incorrect'],
                        required=True,
                        help='Whether to argue for correct or incorrect answer')
+    parser.add_argument('--test-run',
+                       action='store_true',
+                       help='Run with only the first claim for testing purposes')
     
     args = parser.parse_args()
 
@@ -361,6 +360,11 @@ def main():
         claims_data = load_claims(f"./consultancy-claim-assignment-by-participant/{args.judge_prolific_id}_{args.dataset}.json")
     else:
         claims_data = load_claims(args.dataset)
+
+    # If test run, use only the first claim
+    if args.test_run:
+        claims_data = claims_data[:1]
+        print(f"\n🧪 TEST RUN MODE: Processing only the first claim for testing")
 
     # Add argue_for to consultant config right after loading
     consultant_config['argue_for'] = args.argue_for
